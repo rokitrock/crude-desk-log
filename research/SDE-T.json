@@ -1,0 +1,180 @@
+{
+  "subsector": "upstream",
+  "subsectorLabel": "Upstream / E&P",
+  "subsectorBlurb": "Producer — valued on netbacks and reserves; the E&P netback + NAV model leads, with a financials DCF cross-check.",
+  "models": [
+    "ep",
+    "fin"
+  ],
+  "defaultModel": "ep",
+  "headlines": [
+    "Netback",
+    "Reserves NAV",
+    "EV/EBITDA"
+  ],
+  "currency": "USD",
+  "fin": {
+    "currentPrice": 0,
+    "sharesOut": 205147000,
+    "netDebt": 217658695.65217394,
+    "baseRevenue": 300239130.4347826,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "revGrowthStart": -10,
+    "revGrowthTerminal": 3,
+    "ebitdaMargin": 70.3,
+    "daPctRevenue": 35.3,
+    "capexPctRevenue": 80,
+    "wcPctChange": 8,
+    "taxRate": 25,
+    "wacc": 9,
+    "terminalGrowth": 2.5,
+    "history": [
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 1072463768.1159422,
+        "ebitda": 683347826.0869566,
+        "ebit": 535398550.72463775,
+        "da": 147949275.36231887,
+        "capex": 314606521.7391305,
+        "netIncome": 493540579.710145
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 479971014.4927537,
+        "ebitda": 681130434.7826087,
+        "ebit": 573405797.1014494,
+        "da": 107731884.05797103,
+        "capex": 213800724.6376812,
+        "netIncome": 480512318.8405798
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 228369565.21739134,
+        "ebitda": 118536231.88405798,
+        "ebit": 39760869.5652174,
+        "da": 78775362.3188406,
+        "capex": 117320289.85507248,
+        "netIncome": 24842753.62318841
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 300239130.4347826,
+        "ebitda": 180420289.8550725,
+        "ebit": 74492753.62318842,
+        "da": 105920289.85507248,
+        "capex": 260384782.6086957,
+        "netIncome": 50735507.24637682
+      }
+    ]
+  },
+  "epSeed": {
+    "oilBblD": 10293,
+    "nglBblD": 12087,
+    "gasMcfD": 182627,
+    "royaltyPct": 11.5,
+    "opexPerBoe": 6.42,
+    "transportPerBoe": 1.92,
+    "ddaPerBoe": 9.41,
+    "capex": 260384782.6086957,
+    "provedReservesMmboe": 197.247,
+    "probableReservesMmboe": 132.627,
+    "sharesOut": 205147000,
+    "netDebt": 217658695.65217394
+  },
+  "epHistory": [
+    {
+      "year": 2022,
+      "period": "FY",
+      "revenue": 1072463768.1159422,
+      "capex": 314606521.7391305,
+      "da": 147949275.36231887
+    },
+    {
+      "year": 2023,
+      "period": "FY",
+      "revenue": 473021014.4927537,
+      "capex": 213800724.6376812,
+      "da": 107731884.05797103,
+      "oilBblD": 8030,
+      "nglBblD": 10541,
+      "gasMcfD": 207645,
+      "opexPerBoe": 7.08,
+      "netbackPerBoe": 21.1
+    },
+    {
+      "year": 2024,
+      "period": "FY",
+      "revenue": 218579710.14492756,
+      "capex": 117320289.85507248,
+      "da": 78775362.3188406,
+      "oilBblD": 3297,
+      "nglBblD": 9209,
+      "gasMcfD": 153959,
+      "opexPerBoe": 5.9,
+      "netbackPerBoe": 11.68
+    },
+    {
+      "year": 2025,
+      "period": "FY",
+      "revenue": 279645652.17391306,
+      "capex": 260384782.6086957,
+      "da": 105920289.85507248,
+      "oilBblD": 6129,
+      "nglBblD": 10451,
+      "gasMcfD": 155874,
+      "opexPerBoe": 5.82,
+      "netbackPerBoe": 14.94
+    },
+    {
+      "year": 2026,
+      "period": "Q1",
+      "oilBblD": 9092,
+      "nglBblD": 12931,
+      "gasMcfD": 180701,
+      "revenue": 106601449.27536233,
+      "opexPerBoe": 5.92,
+      "netbackPerBoe": 20.56,
+      "capex": 88689130.43478262
+    },
+    {
+      "year": 2026,
+      "period": "Q2",
+      "oilBblD": 10293,
+      "nglBblD": 12087,
+      "gasMcfD": 182627,
+      "revenue": 133114492.7536232,
+      "opexPerBoe": 6.42,
+      "netbackPerBoe": 24.93,
+      "capex": 103671014.49275364
+    },
+    {
+      "year": 2026,
+      "period": "YTD",
+      "oilBblD": 9696,
+      "nglBblD": 12506,
+      "gasMcfD": 181669,
+      "revenue": 239715942.02898553,
+      "opexPerBoe": 6.18,
+      "netbackPerBoe": 22.77,
+      "capex": 192360144.92753625
+    }
+  ],
+  "notes": "Spartan Delta Corp (SDE.TO) is a Canadian upstream E&P focused on Duvernay oil/condensate growth and Deep Basin liquids-rich gas. Condensate classified with oilBblD (crude oil + condensate); NGLs exclude condensate. Revenue in financialHistory is total (incl. processing/other); periods use oil & gas sales where available. Net debt and production as of Q2 2026. Reserves YE2025 gross company interes",
+  "sources": [
+    "https://www.spartandeltacorp.com/",
+    "https://www.spartandeltacorp.com/s/2026-07-29-SDE-Press-Release-2026-Q2-Results_vF.pdf",
+    "https://www.spartandeltacorp.com/s/2026-07-29-Spartan-Delta-Investor-Presentation_vF.pdf",
+    "https://www.newswire.ca/news-releases/spartan-delta-corp-announces-year-end-2025-results-filing-of-its-2025-aif-and-operations-update-835160782.html",
+    "https://www.newswire.ca/news-releases/spartan-delta-corp-announces-2024-year-end-results-and-reserves-874735618.html",
+    "https://boereport.com/2024/02/26/spartan-delta-corp-announces-2023-year-end-results-reserves-and-updated-guidance-for-2024/",
+    "https://www.newswire.ca/news-releases/spartan-delta-corp-announces-first-quarter-2026-results-increased-2026-guidance-and-increase-to-credit-facility-883939885.html",
+    "https://www.newswire.ca/news-releases/spartan-delta-corp-announces-2025-reserves-832445764.html"
+  ],
+  "model": "grok-4.5",
+  "cachedAt": 1787576140828
+}
