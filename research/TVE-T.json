@@ -1,0 +1,180 @@
+{
+  "subsector": "upstream",
+  "subsectorLabel": "Upstream / E&P",
+  "subsectorBlurb": "Producer — valued on netbacks and reserves; the E&P netback + NAV model leads, with a financials DCF cross-check.",
+  "models": [
+    "ep",
+    "fin"
+  ],
+  "defaultModel": "ep",
+  "headlines": [
+    "Netback",
+    "Reserves NAV",
+    "EV/EBITDA"
+  ],
+  "currency": "USD",
+  "fin": {
+    "currentPrice": 0,
+    "sharesOut": 473590000,
+    "netDebt": -96111594.20289856,
+    "baseRevenue": 1167877536.2318842,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "revGrowthStart": 3.3,
+    "revGrowthTerminal": 3,
+    "ebitdaMargin": 34.6,
+    "daPctRevenue": 32.9,
+    "capexPctRevenue": 24.8,
+    "wcPctChange": 8,
+    "taxRate": 0.11,
+    "wacc": 9,
+    "terminalGrowth": 2.5,
+    "history": [
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 1059568840.5797104,
+        "ebitda": 628247826.0869566,
+        "ebit": 354564492.75362325,
+        "da": 273683333.3333334,
+        "capex": 332302173.9130435,
+        "netIncome": 250143478.2608696
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 1249111594.2028987,
+        "ebitda": 629205797.1014494,
+        "ebit": 171913768.11594206,
+        "da": 457292028.9855073,
+        "capex": 374243478.2608696,
+        "netIncome": 68257971.01449277
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 1246907246.3768117,
+        "ebitda": 636213043.478261,
+        "ebit": 210112318.84057975,
+        "da": 426100724.63768125,
+        "capex": 326742753.62318844,
+        "netIncome": 117550000.00000001
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 1167877536.2318842,
+        "ebitda": 403894927.53623194,
+        "ebit": 19392753.62318841,
+        "da": 384502173.91304356,
+        "capex": 289865942.02898556,
+        "netIncome": 0
+      }
+    ]
+  },
+  "epSeed": {
+    "oilBblD": 58048,
+    "nglBblD": 2157,
+    "gasMcfD": 54142,
+    "oilDiff": 1.29,
+    "nglPctWti": 10,
+    "royaltyPct": 0.19,
+    "opexPerBoe": 7.43,
+    "transportPerBoe": 3.46,
+    "ddaPerBoe": 21.32,
+    "capex": 289865942.02898556,
+    "provedReservesMmboe": 173.624,
+    "probableReservesMmboe": 108.052,
+    "sharesOut": 473590000,
+    "netDebt": -96111594.20289856
+  },
+  "epHistory": [
+    {
+      "year": 2022,
+      "period": "FY",
+      "revenue": 1059568840.5797104,
+      "capex": 332302173.9130435,
+      "da": 273683333.3333334
+    },
+    {
+      "year": 2023,
+      "period": "FY",
+      "revenue": 1234007246.3768117,
+      "capex": 374243478.2608696,
+      "da": 457292028.9855073,
+      "oilBblD": 52114,
+      "nglBblD": 3536,
+      "gasMcfD": 68302,
+      "opexPerBoe": 9.49,
+      "netbackPerBoe": 41.36
+    },
+    {
+      "year": 2024,
+      "period": "FY",
+      "revenue": 1246907246.3768117,
+      "capex": 326742753.62318844,
+      "da": 426100724.63768125,
+      "oilBblD": 52353,
+      "nglBblD": 2556,
+      "gasMcfD": 56529,
+      "opexPerBoe": 8.91,
+      "netbackPerBoe": 45.93
+    },
+    {
+      "year": 2025,
+      "period": "FY",
+      "revenue": 1167877536.2318842,
+      "capex": 289865942.02898556,
+      "da": 384502173.91304356,
+      "oilBblD": 55264,
+      "nglBblD": 2742,
+      "gasMcfD": 61020,
+      "opexPerBoe": 7.43,
+      "netbackPerBoe": 40.94
+    },
+    {
+      "year": 2026,
+      "period": "Q1",
+      "oilBblD": 58517,
+      "nglBblD": 2498,
+      "gasMcfD": 61884,
+      "revenue": 321694927.53623194,
+      "capex": 67719565.21739131
+    },
+    {
+      "year": 2026,
+      "period": "Q2",
+      "oilBblD": 58048,
+      "nglBblD": 2157,
+      "gasMcfD": 54142,
+      "revenue": 437529710.1449276,
+      "opexPerBoe": 6.96,
+      "netbackPerBoe": 56.49,
+      "capex": 71539130.43478262
+    },
+    {
+      "year": 2026,
+      "period": "YTD",
+      "oilBblD": 58281,
+      "nglBblD": 2327,
+      "gasMcfD": 57992,
+      "revenue": 1020094202.8985509,
+      "opexPerBoe": 7.15,
+      "netbackPerBoe": 50.63,
+      "capex": 139258695.65217394
+    }
+  ],
+  "notes": "Tamarack Valley Energy (TSX:TVE) is a pure-play Clearwater heavy oil producer after June 15 2026 sale of Charlie Lake assets (~18k boe/d for ~$804M). YE2025 production 68,176 boe/d (85% liquids); Q2 2026 corporate 69,229 boe/d (pre full-quarter impact of sale) with Clearwater 53,598 boe/d; run-rate post-sale >54k boe/d (92% liquids). Net cash position $132.6M at Q2 2026. Proved reserves 174 MMboe,",
+  "sources": [
+    "https://www.tamarackvalley.ca",
+    "https://cdn.prod.website-files.com/631b1b5140f68ad05f6927f5/699e5b9f767902f156375d96_Q4%202025%20Financial%20Report.pdf",
+    "https://cdn.prod.website-files.com/631b1b5140f68ad05f6927f5/699e5aab0d6c324ef6ce6dea_Q4%202025%20-%20TVE%20Results%20Reserves%20NR%20(FINAL).pdf",
+    "https://cdn.prod.website-files.com/631b1b5140f68ad05f6927f5/69a601bc14ca106f599fbf4a_Q4%202025%20-%20AIF%20(FINAL).pdf",
+    "https://www.newswire.ca/news-releases/tamarack-valley-energy-announces-strong-q2-results-provides-operational-update-declares-enhanced-q3-dividend-and-makes-executive-appointment-856934419.html",
+    "https://cdn.prod.website-files.com/6934f67b28cd02ac45442a67/6a681399fb714b102639c45d_Q2%202026%20-%20TVE%20Results%20release%20-%20FINAL.pdf",
+    "https://www.marketscreener.com/news/tamarack-valley-energy-2026-q1-financial-report-ce7f58dddf8cfe20",
+    "https://ca.finance.yahoo.com/quote/TVE.TO/financials/"
+  ],
+  "model": "grok-4.5",
+  "cachedAt": 1787577295659
+}
