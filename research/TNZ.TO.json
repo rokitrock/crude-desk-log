@@ -22,11 +22,11 @@
     "horizonYears": 7,
     "revGrowthStart": 30,
     "revGrowthTerminal": 3,
-    "ebitdaMargin": 90,
-    "daPctRevenue": 38.3,
+    "ebitdaMargin": 55,
+    "daPctRevenue": 8,
     "capexPctRevenue": 40.3,
     "wcPctChange": 8,
-    "taxRate": 50,
+    "taxRate": 21,
     "wacc": 9,
     "terminalGrowth": 2.5,
     "history": [
@@ -34,9 +34,6 @@
         "year": 2022,
         "period": "FY",
         "revenue": 34087000,
-        "ebitda": 12430000,
-        "ebit": 5990000,
-        "da": 6430000,
         "capex": 17101000,
         "netIncome": 5237000
       },
@@ -44,9 +41,6 @@
         "year": 2023,
         "period": "FY",
         "revenue": 64852000,
-        "ebitda": 19630000,
-        "ebit": -337000,
-        "da": 19960000,
         "capex": 24855000,
         "netIncome": 26547000
       },
@@ -54,9 +48,6 @@
         "year": 2024,
         "period": "FY",
         "revenue": 63000000,
-        "ebitda": 4280000,
-        "ebit": -16600000,
-        "da": 20870000,
         "capex": 18225000,
         "netIncome": -7713000
       },
@@ -64,9 +55,6 @@
         "year": 2025,
         "period": "FY",
         "revenue": 291036000,
-        "ebitda": 398720000,
-        "ebit": 287130000,
-        "da": 111600000,
         "capex": 117430000,
         "netIncome": 315613000
       }
@@ -76,11 +64,11 @@
     "oilBblD": 1310,
     "nglBblD": 291,
     "gasMcfD": 93143,
-    "royaltyPct": 2.4,
+    "royaltyPct": 2,
     "opexPerBoe": 30.67,
     "transportPerBoe": 1.92,
     "ddaPerBoe": 31.82,
-    "capex": 117430000,
+    "capex": 58173000,
     "provedReservesMmboe": 57.4,
     "probableReservesMmboe": 34.3,
     "sharesOut": 35600000,
@@ -92,20 +80,13 @@
       "year": 2022,
       "period": "FY",
       "revenue": 34087000,
-      "capex": 17101000,
-      "da": 6430000,
-      "oilBblD": 667,
-      "nglBblD": 56,
-      "gasMcfD": 29720,
-      "opexPerBoe": 18.69,
-      "netbackPerBoe": 42.31
+      "capex": 17101000
     },
     {
       "year": 2023,
       "period": "FY",
       "revenue": 64852000,
       "capex": 24855000,
-      "da": 19960000,
       "oilBblD": 917,
       "nglBblD": 64,
       "gasMcfD": 87490,
@@ -117,7 +98,6 @@
       "period": "FY",
       "revenue": 63000000,
       "capex": 18225000,
-      "da": 20870000,
       "oilBblD": 988,
       "nglBblD": 68,
       "gasMcfD": 97920,
@@ -129,7 +109,6 @@
       "period": "FY",
       "revenue": 291036000,
       "capex": 117430000,
-      "da": 111600000,
       "oilBblD": 1164,
       "nglBblD": 164,
       "gasMcfD": 49684,
@@ -170,17 +149,17 @@
       "capex": 150180000
     }
   ],
-  "notes": "Upstream E&P focused on Dutch North Sea natural gas (largest Netherlands producer post-2025 TEN/NOBV and GEMS acquisitions; ~85-92% gas/TTF-weighted) plus Canadian heavy oil at Leduc-Woodbend. Reporting currency CAD. 2025 net income and EBITDA elevated by $192.2M gain on TEN acquisition and contingent consideration remeasurements. YE2025 reserves: 1P 57.4 MMboe / 2P 91.7 MMboe (McDaniel). Net debt",
+  "notes": "Upstream E&P focused on Dutch North Sea natural gas (largest NL producer post-2025 TEN/NOBV and GEMS acquisitions) plus Canadian Leduc-Woodbend heavy oil. ~85-92% gas-weighted. Reporting currency CAD. FFO used as cash earnings proxy (2025 FY FFO $120.4M; Q2'26 FFO $74.2M). Net debt Q2'26 $378.2M. YE25 1P reserves 57.4 MMboe / 2P 91.7 MMboe (probable = 2P-1P). DD&A ~$31.82/boe FY25. Royalty ~2% of ",
   "sources": [
     "https://www.tenazenergy.com/",
     "https://www.tenazenergy.com/reports-and-filings",
     "https://www.tenazenergy.com/press-releases",
-    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-YE-2025-Press-Release.pdf",
-    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2025-Annual-Report-v3-2-za57.pdf",
     "https://www.tenazenergy.com/s/Q2-2026-Press-Release.pdf",
     "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-Q1-2026-Press-Release.pdf",
-    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2024-Annual-Report.pdf"
+    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-YE-2025-Press-Release.pdf",
+    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2025-Annual-Report-v3-2-za57.pdf",
+    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2024-Press-Release.pdf"
   ],
   "model": "grok-4.5",
-  "cachedAt": 1787651569068
+  "cachedAt": 1787652078845
 }
