@@ -8,11 +8,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: snapshot-main
+  cancel-in-progress: false
+
 jobs:
   snap:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - name: Pull live snapshot and merge
         env:
           BUFFERS_URL: ${{ vars.BUFFERS_URL || 'https://crude-desk-seven.vercel.app/api/buffers' }}
@@ -50,4 +56,13 @@ jobs:
           git add tightness-history.json
           git diff --cached --quiet && echo "no change" && exit 0
           git commit -m "tightness snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main; then
+              git push && exit 0
+            fi
+            git rebase --abort || true
+            sleep $((i * 3))
+          done
+          echo "push still rejected after retries"
+          exit 1
