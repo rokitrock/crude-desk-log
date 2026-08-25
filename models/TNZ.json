@@ -1,0 +1,358 @@
+{
+  "ticker": "TNZ",
+  "name": "TENAZ ENERGY CORP",
+  "currency": "CAD",
+  "savedAt": "2026-08-25T09:27:46.022Z",
+  "hardRefreshAt": null,
+  "source": "grok",
+  "research": {
+    "subsector": "upstream",
+    "subsectorLabel": "Upstream / E&P",
+    "subsectorBlurb": "Producer — valued on netbacks and reserves; the E&P netback + NAV model leads, with a financials DCF cross-check.",
+    "models": [
+      "ep",
+      "fin"
+    ],
+    "defaultModel": "ep",
+    "headlines": [
+      "Netback",
+      "Reserves NAV",
+      "EV/EBITDA"
+    ],
+    "currency": "CAD",
+    "fin": {
+      "currentPrice": 59.25,
+      "sharesOut": 33167000,
+      "netDebt": 378211000,
+      "baseRevenue": 291036000,
+      "startYear": 2026,
+      "horizonYears": 7,
+      "revGrowthStart": 30,
+      "revGrowthTerminal": 3,
+      "ebitdaMargin": 55,
+      "daPctRevenue": 38.3,
+      "capexPctRevenue": 40.3,
+      "wcPctChange": 8,
+      "taxRate": 21,
+      "wacc": 9,
+      "terminalGrowth": 2.5,
+      "history": [
+        {
+          "year": 2022,
+          "period": "FY",
+          "revenue": 34087000,
+          "capex": 17101000,
+          "netIncome": 5237000
+        },
+        {
+          "year": 2023,
+          "period": "FY",
+          "revenue": 64852000,
+          "capex": 24855000,
+          "netIncome": 26547000
+        },
+        {
+          "year": 2024,
+          "period": "FY",
+          "revenue": 63000000,
+          "da": 20871000,
+          "capex": 18225000,
+          "netIncome": -7713000
+        },
+        {
+          "year": 2025,
+          "period": "FY",
+          "revenue": 291036000,
+          "da": 111598000,
+          "capex": 117430000,
+          "netIncome": 315613000
+        }
+      ]
+    },
+    "epSeed": {
+      "oilBblD": 1310,
+      "nglBblD": 291,
+      "gasMcfD": 93143,
+      "royaltyPct": 0.018,
+      "opexPerBoe": 30.67,
+      "transportPerBoe": 1.92,
+      "ddaPerBoe": 31.82,
+      "capex": 150180000,
+      "provedReservesMmboe": 57.4,
+      "probableReservesMmboe": 34.3,
+      "sharesOut": 33167000,
+      "netDebt": 378211000
+    },
+    "epHistory": [
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 34087000,
+        "capex": 17101000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 64852000,
+        "capex": 24855000,
+        "oilBblD": 917,
+        "nglBblD": 64,
+        "gasMcfD": 8749000,
+        "opexPerBoe": 25.23,
+        "netbackPerBoe": 43.5
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 63000000,
+        "capex": 18225000,
+        "da": 20871000,
+        "oilBblD": 988,
+        "nglBblD": 68,
+        "gasMcfD": 9792000,
+        "opexPerBoe": 32.26,
+        "netbackPerBoe": 28.96
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 291036000,
+        "capex": 117430000,
+        "da": 111598000,
+        "oilBblD": 1164,
+        "nglBblD": 164,
+        "gasMcfD": 49684,
+        "opexPerBoe": 33.06,
+        "netbackPerBoe": 47.47
+      },
+      {
+        "year": 2026,
+        "period": "Q1",
+        "oilBblD": 1042,
+        "nglBblD": 330,
+        "gasMcfD": 88863,
+        "revenue": 133291000,
+        "opexPerBoe": 31.38,
+        "netbackPerBoe": 57.48,
+        "capex": 92007000
+      },
+      {
+        "year": 2026,
+        "period": "Q2",
+        "oilBblD": 1310,
+        "nglBblD": 291,
+        "gasMcfD": 93143,
+        "revenue": 159971000,
+        "opexPerBoe": 30.67,
+        "netbackPerBoe": 69.05,
+        "capex": 58173000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "oilBblD": 1177,
+        "nglBblD": 311,
+        "gasMcfD": 91015,
+        "revenue": 293262000,
+        "opexPerBoe": 31.02,
+        "netbackPerBoe": 63.45,
+        "capex": 150180000
+      }
+    ],
+    "notes": "Upstream producer focused on Dutch North Sea natural gas (TTF-priced, ~85-90% of boe mix post-2025 acquisitions of TEN/NOBV and GEMS) plus Canadian heavy oil at Leduc-Woodbend. Major scale-up via 2025 M&A; Q2 2026 prod 17.1 kboe/d (gas primary at 93.1 MMcf/d); YE2025 1P 57.4 MMboe / 2P 91.7 MMboe. Reporting CAD; FFO used as cash flow proxy (not EBITDA). Net debt Q2'26 $378M. Diluted shares ~34.6M ",
+    "sources": [
+      "https://www.tenazenergy.com/",
+      "https://www.tenazenergy.com/reports-and-filings",
+      "https://www.tenazenergy.com/s/Q2-2026-Press-Release.pdf",
+      "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-YE-2025-Press-Release.pdf",
+      "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2025-Annual-Report-v3-2-za57.pdf",
+      "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-Q1-2026-Press-Release.pdf",
+      "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2024-Annual-Report.pdf",
+      "https://tenaz-energy.squarespace.com/s/Annual-Report.pdf"
+    ],
+    "model": "grok-4.5",
+    "cachedAt": 1787650065648
+  },
+  "ep": {
+    "currentPrice": 59.25,
+    "sharesOut": 33167000,
+    "netDebt": 378211000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "interestRate": 6,
+    "taxRate": 24,
+    "deferredTaxPct": 30,
+    "riskFree": 4.3,
+    "marketRiskPremium": 5,
+    "unleveredBeta": 1.05,
+    "debtToEquity": 0.4,
+    "waccOverride": null,
+    "terminalGrowth": 1.5,
+    "terminalEbitdaMultiple": 4.5,
+    "terminalMethod": "average",
+    "navWeight": 50,
+    "oilBblD": 1310,
+    "nglBblD": 291,
+    "gasMcfD": 93143,
+    "oilGrowthStart": 3,
+    "oilGrowthTerminal": 0,
+    "nglGrowthStart": 3,
+    "nglGrowthTerminal": 0,
+    "gasGrowthStart": 2,
+    "gasGrowthTerminal": 0,
+    "oilDiff": 7,
+    "gasRealizationPct": 70,
+    "nglPctWti": 42,
+    "aecoSharePct": 20,
+    "carbonPerBoe": 0,
+    "royaltyPct": 0.018,
+    "opexPerBoe": 30.67,
+    "transportPerBoe": 1.92,
+    "gaFixed": 36500000,
+    "otherFixed": 0,
+    "downstreamEbitda": 0,
+    "inflationPct": 2,
+    "ddaPerBoe": 31.82,
+    "arDays": 45,
+    "invDays": 15,
+    "apDays": 40,
+    "capex": 150180000,
+    "capexGrowthPct": 2,
+    "provedReservesMmboe": 57.4,
+    "probableReservesMmboe": 34.3,
+    "probableRisk": 50,
+    "history": [
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 34087000,
+        "capex": 17101000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 64852000,
+        "capex": 24855000,
+        "oilBblD": 917,
+        "nglBblD": 64,
+        "gasMcfD": 8749000,
+        "opexPerBoe": 25.23,
+        "netbackPerBoe": 43.5
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 63000000,
+        "capex": 18225000,
+        "da": 20871000,
+        "oilBblD": 988,
+        "nglBblD": 68,
+        "gasMcfD": 9792000,
+        "opexPerBoe": 32.26,
+        "netbackPerBoe": 28.96
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 291036000,
+        "capex": 117430000,
+        "da": 111598000,
+        "oilBblD": 1164,
+        "nglBblD": 164,
+        "gasMcfD": 49684,
+        "opexPerBoe": 33.06,
+        "netbackPerBoe": 47.47
+      },
+      {
+        "year": 2026,
+        "period": "Q1",
+        "oilBblD": 1042,
+        "nglBblD": 330,
+        "gasMcfD": 88863,
+        "revenue": 133291000,
+        "opexPerBoe": 31.38,
+        "netbackPerBoe": 57.48,
+        "capex": 92007000
+      },
+      {
+        "year": 2026,
+        "period": "Q2",
+        "oilBblD": 1310,
+        "nglBblD": 291,
+        "gasMcfD": 93143,
+        "revenue": 159971000,
+        "opexPerBoe": 30.67,
+        "netbackPerBoe": 69.05,
+        "capex": 58173000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "oilBblD": 1177,
+        "nglBblD": 311,
+        "gasMcfD": 91015,
+        "revenue": 293262000,
+        "opexPerBoe": 31.02,
+        "netbackPerBoe": 63.45,
+        "capex": 150180000
+      }
+    ],
+    "cash": 0,
+    "totalDebt": 0,
+    "bookEquity": 0,
+    "startPPE": 0,
+    "payoutPct": 25
+  },
+  "fin": {
+    "currentPrice": 59.25,
+    "sharesOut": 33167000,
+    "netDebt": 378211000,
+    "baseRevenue": 291036000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "revGrowthStart": 30,
+    "revGrowthTerminal": 3,
+    "ebitdaMargin": 55,
+    "daPctRevenue": 38.3,
+    "capexPctRevenue": 40.3,
+    "wcPctChange": 8,
+    "taxRate": 21,
+    "wacc": 9,
+    "terminalGrowth": 2.5,
+    "history": [
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 34087000,
+        "capex": 17101000,
+        "netIncome": 5237000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 64852000,
+        "capex": 24855000,
+        "netIncome": 26547000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 63000000,
+        "da": 20871000,
+        "capex": 18225000,
+        "netIncome": -7713000
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 291036000,
+        "da": 111598000,
+        "capex": 117430000,
+        "netIncome": 315613000
+      }
+    ]
+  },
+  "sourceRelease": null,
+  "builtAt": null,
+  "notes": "Upstream producer focused on Dutch North Sea natural gas (TTF-priced, ~85-90% of boe mix post-2025 acquisitions of TEN/NOBV and GEMS) plus Canadian heavy oil at Leduc-Woodbend. Major scale-up via 2025 M&A; Q2 2026 prod 17.1 kboe/d (gas primary at 93.1 MMcf/d); YE2025 1P 57.4 MMboe / 2P 91.7 MMboe. Reporting CAD; FFO used as cash flow proxy (not EBITDA). Net debt Q2'26 $378M. Diluted shares ~34.6M "
+}
