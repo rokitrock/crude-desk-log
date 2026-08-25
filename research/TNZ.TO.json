@@ -15,7 +15,7 @@
   "currency": "CAD",
   "fin": {
     "currentPrice": 59.25,
-    "sharesOut": 34569000,
+    "sharesOut": 33167000,
     "netDebt": 378211000,
     "baseRevenue": 291036000,
     "startYear": 2026,
@@ -26,7 +26,7 @@
     "daPctRevenue": 38.3,
     "capexPctRevenue": 40.3,
     "wcPctChange": 8,
-    "taxRate": 0.5,
+    "taxRate": 21,
     "wacc": 9,
     "terminalGrowth": 2.5,
     "history": [
@@ -41,7 +41,6 @@
         "year": 2023,
         "period": "FY",
         "revenue": 64852000,
-        "da": 19962000,
         "capex": 24855000,
         "netIncome": 26547000
       },
@@ -67,14 +66,14 @@
     "oilBblD": 1310,
     "nglBblD": 291,
     "gasMcfD": 93143,
-    "royaltyPct": 0.024,
-    "opexPerBoe": 31.02,
-    "transportPerBoe": 2.21,
+    "royaltyPct": 0.018,
+    "opexPerBoe": 30.67,
+    "transportPerBoe": 1.92,
     "ddaPerBoe": 31.82,
     "capex": 150180000,
     "provedReservesMmboe": 57.4,
     "probableReservesMmboe": 34.3,
-    "sharesOut": 34569000,
+    "sharesOut": 33167000,
     "netDebt": 378211000
   },
   "epHistory": [
@@ -89,7 +88,6 @@
       "period": "FY",
       "revenue": 64852000,
       "capex": 24855000,
-      "da": 19962000,
       "oilBblD": 917,
       "nglBblD": 64,
       "gasMcfD": 8749000,
@@ -154,17 +152,17 @@
       "capex": 150180000
     }
   ],
-  "notes": "Upstream producer focused on Dutch North Sea natural gas (TTF-linked, ~85-90% of production) plus Canadian heavy oil at Leduc-Woodbend. Major 2025 acquisitions of TEN (NAM Offshore, closed May 2025) and GEMS/Hansa (Oct 2025) drove step-change in scale. Reporting currency CAD. SharesOut is Q2 2026 weighted-average diluted (~34.569M); end-Q2 basic ~33.167M. Net debt and production as of Q2 2026. Res",
+  "notes": "Upstream producer focused on Dutch North Sea natural gas (TTF-priced, ~85-90% of boe mix post-2025 acquisitions of TEN/NOBV and GEMS) plus Canadian heavy oil at Leduc-Woodbend. Major scale-up via 2025 M&A; Q2 2026 prod 17.1 kboe/d (gas primary at 93.1 MMcf/d); YE2025 1P 57.4 MMboe / 2P 91.7 MMboe. Reporting CAD; FFO used as cash flow proxy (not EBITDA). Net debt Q2'26 $378M. Diluted shares ~34.6M ",
   "sources": [
     "https://www.tenazenergy.com/",
     "https://www.tenazenergy.com/reports-and-filings",
+    "https://www.tenazenergy.com/s/Q2-2026-Press-Release.pdf",
     "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-YE-2025-Press-Release.pdf",
     "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2025-Annual-Report-v3-2-za57.pdf",
-    "https://www.tenazenergy.com/s/2025-AIF-Tenaz-Energy-Corp-p9gg.pdf",
     "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-Q1-2026-Press-Release.pdf",
-    "https://www.tenazenergy.com/s/Q2-2026-Press-Release.pdf",
-    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2024-Press-Release.pdf"
+    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2024-Annual-Report.pdf",
+    "https://tenaz-energy.squarespace.com/s/Annual-Report.pdf"
   ],
   "model": "grok-4.5",
-  "cachedAt": 1787650027069
+  "cachedAt": 1787650065648
 }
