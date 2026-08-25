@@ -15,7 +15,7 @@
   "currency": "CAD",
   "fin": {
     "currentPrice": 59.25,
-    "sharesOut": 33167000,
+    "sharesOut": 35600000,
     "netDebt": 378211000,
     "baseRevenue": 291036000,
     "startYear": 2026,
@@ -26,10 +26,17 @@
     "daPctRevenue": 38.3,
     "capexPctRevenue": 40.3,
     "wcPctChange": 8,
-    "taxRate": 21,
+    "taxRate": 0.5,
     "wacc": 9,
     "terminalGrowth": 2.5,
     "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 17830000,
+        "capex": 10391000,
+        "netIncome": 8339000
+      },
       {
         "year": 2022,
         "period": "FY",
@@ -66,17 +73,23 @@
     "oilBblD": 1310,
     "nglBblD": 291,
     "gasMcfD": 93143,
-    "royaltyPct": 0.018,
+    "royaltyPct": 0.024,
     "opexPerBoe": 30.67,
     "transportPerBoe": 1.92,
     "ddaPerBoe": 31.82,
-    "capex": 150180000,
+    "capex": 300000000,
     "provedReservesMmboe": 57.4,
     "probableReservesMmboe": 34.3,
-    "sharesOut": 33167000,
+    "sharesOut": 35600000,
     "netDebt": 378211000
   },
   "epHistory": [
+    {
+      "year": 2021,
+      "period": "FY",
+      "revenue": 17830000,
+      "capex": 10391000
+    },
     {
       "year": 2022,
       "period": "FY",
@@ -152,17 +165,17 @@
       "capex": 150180000
     }
   ],
-  "notes": "Upstream producer focused on Dutch North Sea natural gas (TTF-priced, ~85-90% of boe mix post-2025 acquisitions of TEN/NOBV and GEMS) plus Canadian heavy oil at Leduc-Woodbend. Major scale-up via 2025 M&A; Q2 2026 prod 17.1 kboe/d (gas primary at 93.1 MMcf/d); YE2025 1P 57.4 MMboe / 2P 91.7 MMboe. Reporting CAD; FFO used as cash flow proxy (not EBITDA). Net debt Q2'26 $378M. Diluted shares ~34.6M ",
+  "notes": "Tenaz is a TSX-listed upstream E&P focused on Dutch/German North Sea natural gas (TTF-linked, ~85-92% of production mix post-2025 TEN/NOBV and GEMS acquisitions) plus Canadian heavy oil at Leduc-Woodbend. Reporting currency CAD. Large 2025 step-change from acquisitions (closed May/Oct 2025); 2025 net income includes ~$192M gain on acquisition and contingent consideration remeasurement. Net debt at",
   "sources": [
     "https://www.tenazenergy.com/",
     "https://www.tenazenergy.com/reports-and-filings",
-    "https://www.tenazenergy.com/s/Q2-2026-Press-Release.pdf",
+    "https://www.tenazenergy.com/press-releases",
     "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-YE-2025-Press-Release.pdf",
     "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2025-Annual-Report-v3-2-za57.pdf",
+    "https://www.tenazenergy.com/s/2025-AIF-Tenaz-Energy-Corp-p9gg.pdf",
     "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-Q1-2026-Press-Release.pdf",
-    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2024-Annual-Report.pdf",
-    "https://tenaz-energy.squarespace.com/s/Annual-Report.pdf"
+    "https://www.tenazenergy.com/s/Q2-2026-Press-Release.pdf"
   ],
   "model": "grok-4.5",
-  "cachedAt": 1787650065648
+  "cachedAt": 1787650356189
 }
