@@ -26,17 +26,10 @@
     "daPctRevenue": 38.3,
     "capexPctRevenue": 40.3,
     "wcPctChange": 8,
-    "taxRate": 0.5,
+    "taxRate": 21,
     "wacc": 9,
     "terminalGrowth": 2.5,
     "history": [
-      {
-        "year": 2021,
-        "period": "FY",
-        "revenue": 17830000,
-        "capex": 10391000,
-        "netIncome": 8339000
-      },
       {
         "year": 2022,
         "period": "FY",
@@ -73,23 +66,18 @@
     "oilBblD": 1310,
     "nglBblD": 291,
     "gasMcfD": 93143,
-    "royaltyPct": 0.024,
-    "opexPerBoe": 30.67,
-    "transportPerBoe": 1.92,
+    "royaltyPct": 2.4,
+    "opexPerBoe": 31.02,
+    "transportPerBoe": 2.21,
     "ddaPerBoe": 31.82,
-    "capex": 300000000,
+    "capex": 150180000,
     "provedReservesMmboe": 57.4,
     "probableReservesMmboe": 34.3,
     "sharesOut": 35600000,
-    "netDebt": 378211000
+    "netDebt": 378211000,
+    "ttfSharePct": 85
   },
   "epHistory": [
-    {
-      "year": 2021,
-      "period": "FY",
-      "revenue": 17830000,
-      "capex": 10391000
-    },
     {
       "year": 2022,
       "period": "FY",
@@ -103,7 +91,7 @@
       "capex": 24855000,
       "oilBblD": 917,
       "nglBblD": 64,
-      "gasMcfD": 8749000,
+      "gasMcfD": 87490,
       "opexPerBoe": 25.23,
       "netbackPerBoe": 43.5
     },
@@ -115,7 +103,7 @@
       "da": 20871000,
       "oilBblD": 988,
       "nglBblD": 68,
-      "gasMcfD": 9792000,
+      "gasMcfD": 97920,
       "opexPerBoe": 32.26,
       "netbackPerBoe": 28.96
     },
@@ -165,17 +153,17 @@
       "capex": 150180000
     }
   ],
-  "notes": "Tenaz is a TSX-listed upstream E&P focused on Dutch/German North Sea natural gas (TTF-linked, ~85-92% of production mix post-2025 TEN/NOBV and GEMS acquisitions) plus Canadian heavy oil at Leduc-Woodbend. Reporting currency CAD. Large 2025 step-change from acquisitions (closed May/Oct 2025); 2025 net income includes ~$192M gain on acquisition and contingent consideration remeasurement. Net debt at",
+  "notes": "Upstream E&P focused on Dutch/German North Sea natural gas (majority TTF-linked, ~85-92% of boe) plus Canadian heavy oil at Leduc-Woodbend. Major 2025 acquisitions of TEN (ex-NOBV/NAM Offshore, closed May 2025) and GEMS (Hansa, closed Oct 2025) drove step-change in scale. Reporting currency CAD. Revenue is petroleum and natural gas sales. DA from MD&A (exact $111.598M 2025 / $20.871M 2024). Shares",
   "sources": [
     "https://www.tenazenergy.com/",
     "https://www.tenazenergy.com/reports-and-filings",
     "https://www.tenazenergy.com/press-releases",
-    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-YE-2025-Press-Release.pdf",
     "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2025-Annual-Report-v3-2-za57.pdf",
-    "https://www.tenazenergy.com/s/2025-AIF-Tenaz-Energy-Corp-p9gg.pdf",
+    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-YE-2025-Press-Release.pdf",
+    "https://www.tenazenergy.com/s/Q2-2026-Press-Release.pdf",
     "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-Q1-2026-Press-Release.pdf",
-    "https://www.tenazenergy.com/s/Q2-2026-Press-Release.pdf"
+    "https://www.tenazenergy.com/s/Tenaz-Energy-Corp-2024-Annual-Report.pdf"
   ],
   "model": "grok-4.5",
-  "cachedAt": 1787650356189
+  "cachedAt": 1787651048073
 }
