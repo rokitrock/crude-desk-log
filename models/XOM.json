@@ -1,0 +1,380 @@
+{
+  "ticker": "XOM",
+  "name": "Exxon Mobil Corporation",
+  "currency": "USD",
+  "savedAt": "2026-08-26T11:41:09.893Z",
+  "hardRefreshAt": null,
+  "source": "grok",
+  "research": {
+    "subsector": "integrated",
+    "subsectorLabel": "Integrated",
+    "subsectorBlurb": "Integrated major — upstream + downstream; DCF plus multiples and dividend.",
+    "models": [
+      "fin",
+      "ep"
+    ],
+    "defaultModel": "fin",
+    "headlines": [
+      "DCF",
+      "EV/EBITDA",
+      "Dividend"
+    ],
+    "currency": "USD",
+    "fin": {
+      "currentPrice": 160.64,
+      "sharesOut": 4166763453,
+      "netDebt": 32856000000,
+      "baseRevenue": 323905000000,
+      "startYear": 2026,
+      "horizonYears": 7,
+      "revGrowthStart": 3.7,
+      "revGrowthTerminal": 3,
+      "ebitdaMargin": 21,
+      "daPctRevenue": 8,
+      "capexPctRevenue": 9,
+      "wcPctChange": 8,
+      "taxRate": 0.279,
+      "wacc": 9,
+      "terminalGrowth": 2.5,
+      "history": [
+        {
+          "year": 2021,
+          "period": "FY",
+          "revenue": 280510000000,
+          "netIncome": 23040000000
+        },
+        {
+          "year": 2022,
+          "period": "FY",
+          "revenue": 398675000000,
+          "ebitda": 102591000000,
+          "ebit": 64028000000,
+          "netIncome": 55740000000
+        },
+        {
+          "year": 2023,
+          "period": "FY",
+          "revenue": 334697000000,
+          "ebitda": 74273000000,
+          "ebit": 44461000000,
+          "netIncome": 36010000000
+        },
+        {
+          "year": 2024,
+          "period": "FY",
+          "revenue": 339247000000,
+          "ebitda": 73311000000,
+          "ebit": 39652000000,
+          "da": 23442000000,
+          "capex": 25647000000,
+          "netIncome": 33680000000
+        },
+        {
+          "year": 2025,
+          "period": "FY",
+          "revenue": 323905000000,
+          "ebitda": 67864000000,
+          "ebit": 33938000000,
+          "da": 25993000000,
+          "capex": 28997000000,
+          "netIncome": 28844000000
+        }
+      ]
+    },
+    "epSeed": {
+      "oilBblD": 2790000,
+      "nglBblD": 539000,
+      "gasMcfD": 8442000,
+      "capex": 28997000000,
+      "provedReservesMmboe": 19311,
+      "sharesOut": 4166763453,
+      "netDebt": 32856000000,
+      "opexPerBoe": 10
+    },
+    "epHistory": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 280510000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 398675000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 334697000000,
+        "oilBblD": 2104000,
+        "nglBblD": 345000,
+        "gasMcfD": 7734000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 339247000000,
+        "capex": 25647000000,
+        "da": 23442000000,
+        "oilBblD": 2504000,
+        "nglBblD": 483000,
+        "gasMcfD": 8078000
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 323905000000,
+        "capex": 28997000000,
+        "da": 25993000000,
+        "oilBblD": 2790000,
+        "nglBblD": 539000,
+        "gasMcfD": 8442000
+      },
+      {
+        "year": 2025,
+        "period": "Q4",
+        "gasMcfD": 8743000,
+        "revenue": 80039000000
+      },
+      {
+        "year": 2025,
+        "period": "Q3",
+        "gasMcfD": 8334000
+      },
+      {
+        "year": 2025,
+        "period": "Q2",
+        "gasMcfD": 8219000
+      },
+      {
+        "year": 2025,
+        "period": "Q1",
+        "gasMcfD": 8470000
+      },
+      {
+        "year": 2025,
+        "period": "YTD",
+        "oilBblD": 2790000,
+        "nglBblD": 539000,
+        "gasMcfD": 8442000,
+        "revenue": 323905000000,
+        "capex": 28997000000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "label": "2026 YTD",
+        "oilBblD": 2790000,
+        "nglBblD": 539000,
+        "gasMcfD": 8442000
+      }
+    ],
+    "notes": "Integrated major; FY2025 production record 4.736 Mboe/d (liquids 3.329 Mbd incl. crude/NGL/bitumen/synthetic; gas 8.442 Bcf/d). Proved reserves 19.311 Bboe YE2025. Net debt = total debt $43.537B - cash $10.681B. Diluted shares avg 4.305B for 2025 EPS; outstanding 4.166763453B as of Jan 31 2026. Cash capex $29.0B (additions to PP&E $28.4B). Tax rate approx income tax/pre-tax. Oil/NGL split estimate",
+    "sources": [
+      "https://investor.exxonmobil.com",
+      "https://www.sec.gov/Archives/edgar/data/34088/000003408826000045/xom-20251231.htm",
+      "https://corporate.exxonmobil.com/news/news-releases/2026/0130-exxonmobil-announces-2025-results",
+      "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-26-000033/0000034088-26-000033.pdf",
+      "https://d1io3yog0oux5.cloudfront.net/_9c0226c1dc3efd2dbe7760ece1f33886/exxonmobil/db/2431/22413/file/Upstream+2025+Production.pdf"
+    ],
+    "model": "grok-4.5",
+    "cachedAt": 1787744469660
+  },
+  "ep": {
+    "currentPrice": 160.64,
+    "sharesOut": 4166763453,
+    "netDebt": 32856000000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "interestRate": 6,
+    "taxRate": 27.9,
+    "deferredTaxPct": 30,
+    "riskFree": 4.3,
+    "marketRiskPremium": 5,
+    "unleveredBeta": 0.75,
+    "debtToEquity": 0.4,
+    "waccOverride": null,
+    "terminalGrowth": 1.5,
+    "terminalEbitdaMultiple": 6.5,
+    "terminalMethod": "average",
+    "navWeight": 50,
+    "oilBblD": 2790000,
+    "nglBblD": 539000,
+    "gasMcfD": 8442000,
+    "oilGrowthStart": 2,
+    "oilGrowthTerminal": 0,
+    "nglGrowthStart": 3,
+    "nglGrowthTerminal": 0,
+    "gasGrowthStart": 1,
+    "gasGrowthTerminal": 0,
+    "oilDiff": 2,
+    "gasRealizationPct": 90,
+    "nglPctWti": 50,
+    "aecoSharePct": 0,
+    "ttfSharePct": 0,
+    "carbonPerBoe": 0,
+    "royaltyPct": 15,
+    "opexPerBoe": 10,
+    "transportPerBoe": 2,
+    "gaFixed": 36500000,
+    "otherFixed": 0,
+    "downstreamEbitda": 0,
+    "inflationPct": 2,
+    "ddaPerBoe": 12,
+    "arDays": 45,
+    "invDays": 15,
+    "apDays": 40,
+    "capex": 28997000000,
+    "capexGrowthPct": 2,
+    "provedReservesMmboe": 19311,
+    "probableReservesMmboe": 0,
+    "probableRisk": 50,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 280510000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 398675000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 334697000000,
+        "oilBblD": 2104000,
+        "nglBblD": 345000,
+        "gasMcfD": 7734000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 339247000000,
+        "capex": 25647000000,
+        "da": 23442000000,
+        "oilBblD": 2504000,
+        "nglBblD": 483000,
+        "gasMcfD": 8078000
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 323905000000,
+        "capex": 28997000000,
+        "da": 25993000000,
+        "oilBblD": 2790000,
+        "nglBblD": 539000,
+        "gasMcfD": 8442000
+      },
+      {
+        "year": 2025,
+        "period": "Q4",
+        "gasMcfD": 8743000,
+        "revenue": 80039000000
+      },
+      {
+        "year": 2025,
+        "period": "Q3",
+        "gasMcfD": 8334000
+      },
+      {
+        "year": 2025,
+        "period": "Q2",
+        "gasMcfD": 8219000
+      },
+      {
+        "year": 2025,
+        "period": "Q1",
+        "gasMcfD": 8470000
+      },
+      {
+        "year": 2025,
+        "period": "YTD",
+        "oilBblD": 2790000,
+        "nglBblD": 539000,
+        "gasMcfD": 8442000,
+        "revenue": 323905000000,
+        "capex": 28997000000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "label": "2026 YTD",
+        "oilBblD": 2790000,
+        "nglBblD": 539000,
+        "gasMcfD": 8442000
+      }
+    ],
+    "cash": 0,
+    "totalDebt": 0,
+    "bookEquity": 0,
+    "startPPE": 0,
+    "payoutPct": 25
+  },
+  "fin": {
+    "currentPrice": 160.64,
+    "sharesOut": 4166763453,
+    "netDebt": 32856000000,
+    "baseRevenue": 323905000000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "revGrowthStart": 3.7,
+    "revGrowthTerminal": 3,
+    "ebitdaMargin": 21,
+    "daPctRevenue": 8,
+    "capexPctRevenue": 9,
+    "wcPctChange": 8,
+    "taxRate": 0.279,
+    "wacc": 9,
+    "terminalGrowth": 2.5,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 280510000000,
+        "netIncome": 23040000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 398675000000,
+        "ebitda": 102591000000,
+        "ebit": 64028000000,
+        "netIncome": 55740000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 334697000000,
+        "ebitda": 74273000000,
+        "ebit": 44461000000,
+        "netIncome": 36010000000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 339247000000,
+        "ebitda": 73311000000,
+        "ebit": 39652000000,
+        "da": 23442000000,
+        "capex": 25647000000,
+        "netIncome": 33680000000
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 323905000000,
+        "ebitda": 67864000000,
+        "ebit": 33938000000,
+        "da": 25993000000,
+        "capex": 28997000000,
+        "netIncome": 28844000000
+      }
+    ]
+  },
+  "sourceRelease": null,
+  "builtAt": null,
+  "notes": "Integrated major; FY2025 production record 4.736 Mboe/d (liquids 3.329 Mbd incl. crude/NGL/bitumen/synthetic; gas 8.442 Bcf/d). Proved reserves 19.311 Bboe YE2025. Net debt = total debt $43.537B - cash $10.681B. Diluted shares avg 4.305B for 2025 EPS; outstanding 4.166763453B as of Jan 31 2026. Cash capex $29.0B (additions to PP&E $28.4B). Tax rate approx income tax/pre-tax. Oil/NGL split estimate"
+}
