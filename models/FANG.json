@@ -1,0 +1,382 @@
+{
+  "ticker": "FANG",
+  "name": "Diamondback Energy, Inc.",
+  "currency": "USD",
+  "savedAt": "2026-08-26T11:05:35.601Z",
+  "hardRefreshAt": null,
+  "source": "grok",
+  "research": {
+    "subsector": "upstream",
+    "subsectorLabel": "Upstream / E&P",
+    "subsectorBlurb": "Producer — valued on netbacks and reserves; the E&P netback + NAV model leads, with a financials DCF cross-check.",
+    "models": [
+      "ep",
+      "fin"
+    ],
+    "defaultModel": "ep",
+    "headlines": [
+      "Netback",
+      "Reserves NAV",
+      "EV/EBITDA"
+    ],
+    "currency": "USD",
+    "fin": {
+      "currentPrice": 199.89,
+      "sharesOut": 281202000,
+      "netDebt": 12304000000,
+      "baseRevenue": 15026000000,
+      "startYear": 2026,
+      "horizonYears": 7,
+      "revGrowthStart": 21.9,
+      "revGrowthTerminal": 3,
+      "ebitdaMargin": 63.5,
+      "daPctRevenue": 33.5,
+      "capexPctRevenue": 23.4,
+      "wcPctChange": 8,
+      "taxRate": 0.17,
+      "wacc": 9,
+      "terminalGrowth": 2.5,
+      "history": [
+        {
+          "year": 2021,
+          "period": "FY",
+          "revenue": 6797000000,
+          "ebitda": 5276000000,
+          "ebit": 4001000000,
+          "capex": 1487000000,
+          "netIncome": 2182000000
+        },
+        {
+          "year": 2022,
+          "period": "FY",
+          "revenue": 9643000000,
+          "ebitda": 7852000000,
+          "ebit": 6508000000,
+          "capex": 1938000000,
+          "netIncome": 4386000000
+        },
+        {
+          "year": 2023,
+          "period": "FY",
+          "revenue": 8412000000,
+          "ebitda": 6115000000,
+          "ebit": 4570000000,
+          "da": 1746000000,
+          "capex": 2701000000,
+          "netIncome": 3143000000
+        },
+        {
+          "year": 2024,
+          "period": "FY",
+          "revenue": 11066000000,
+          "ebitda": 7282000000,
+          "ebit": 4396000000,
+          "da": 2850000000,
+          "capex": 2867000000,
+          "netIncome": 3338000000
+        },
+        {
+          "year": 2025,
+          "period": "FY",
+          "revenue": 15026000000,
+          "ebitda": 9536000000,
+          "ebit": 1266000000,
+          "da": 5038000000,
+          "capex": 3523000000,
+          "netIncome": 1664000000
+        }
+      ]
+    },
+    "epSeed": {
+      "oilBblD": 525176,
+      "nglBblD": 257538,
+      "gasMcfD": 1409659,
+      "nglPctWti": 10,
+      "opexPerBoe": 5.96,
+      "transportPerBoe": 1.22,
+      "ddaPerBoe": 14,
+      "capex": 3900000000,
+      "provedReservesMmboe": 3618,
+      "sharesOut": 281202000,
+      "netDebt": 12304000000
+    },
+    "epHistory": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 6797000000,
+        "capex": 1487000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 9643000000,
+        "capex": 1938000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 8412000000,
+        "capex": 2701000000,
+        "da": 1746000000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 11066000000,
+        "capex": 2867000000,
+        "da": 2850000000,
+        "oilBblD": 336954,
+        "nglBblD": 136164,
+        "gasMcfD": 755288,
+        "opexPerBoe": 5.87
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 15026000000,
+        "capex": 3523000000,
+        "da": 5038000000,
+        "oilBblD": 497156,
+        "nglBblD": 219378,
+        "gasMcfD": 1227000,
+        "opexPerBoe": 5.55
+      },
+      {
+        "year": 2026,
+        "period": "Q1",
+        "oilBblD": 520989,
+        "nglBblD": 239100,
+        "gasMcfD": 1315578,
+        "opexPerBoe": 6.21,
+        "capex": 933000000
+      },
+      {
+        "year": 2026,
+        "period": "Q2",
+        "oilBblD": 525176,
+        "nglBblD": 257538,
+        "gasMcfD": 1409659,
+        "revenue": 5560000000,
+        "opexPerBoe": 5.96,
+        "capex": 996000000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "oilBblD": 523083,
+        "nglBblD": 248319,
+        "gasMcfD": 1362618,
+        "opexPerBoe": 6.08,
+        "capex": 1929000000
+      }
+    ],
+    "notes": "Upstream pure-play focused on Permian (Midland/Delaware). Large 2024/2025 production step-up from acquisitions (e.g., Endeavor). Adj. EBITDA used (attributable where available). Shares diluted WA for Q2 2026. Net debt consolidated 6/30/2026. Reserves YE2025 proved 3,618 MMBOE (49% oil). LOE as opexPerBoe; GP&T as transport. DD&A guidance ~$13.50-14.50/boe. Effective tax low due to impairments. Pro",
+    "sources": [
+      "https://ir.diamondbackenergy.com/investors",
+      "https://www.diamondbackenergy.com/static-files/3edc9cca-d7ee-45e5-b420-1b2b8fab639f",
+      "https://www.globenewswire.com/news-release/2026/02/23/3243011/0/en/Diamondback-Energy-Inc-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-and-Operating-Results-Increases-Base-Dividend.html",
+      "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000010/fang-20251231.htm",
+      "https://ir.diamondbackenergy.com/static-files/69e4a842-30fe-4ce0-8b92-510ad5aff2e6",
+      "https://www.macrotrends.net/stocks/charts/FANG/diamondback-energy/financial-statements"
+    ],
+    "model": "grok-4.5",
+    "cachedAt": 1787742335381
+  },
+  "ep": {
+    "currentPrice": 199.89,
+    "sharesOut": 281202000,
+    "netDebt": 12304000000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "interestRate": 6,
+    "taxRate": 17.4,
+    "deferredTaxPct": 30,
+    "riskFree": 4.3,
+    "marketRiskPremium": 5,
+    "unleveredBeta": 1.05,
+    "debtToEquity": 0.4,
+    "waccOverride": null,
+    "terminalGrowth": 1.5,
+    "terminalEbitdaMultiple": 4.5,
+    "terminalMethod": "average",
+    "navWeight": 50,
+    "oilBblD": 525176,
+    "nglBblD": 257538,
+    "gasMcfD": 1409659,
+    "oilGrowthStart": 5,
+    "oilGrowthTerminal": 0,
+    "nglGrowthStart": 3,
+    "nglGrowthTerminal": 0,
+    "gasGrowthStart": 3,
+    "gasGrowthTerminal": 0,
+    "oilDiff": 1.5,
+    "gasRealizationPct": 45,
+    "nglPctWti": 10,
+    "aecoSharePct": 0,
+    "ttfSharePct": 0,
+    "carbonPerBoe": 0,
+    "royaltyPct": 22,
+    "opexPerBoe": 5.96,
+    "transportPerBoe": 1.22,
+    "gaFixed": 36500000,
+    "otherFixed": 0,
+    "downstreamEbitda": 0,
+    "inflationPct": 2,
+    "ddaPerBoe": 14,
+    "arDays": 45,
+    "invDays": 15,
+    "apDays": 40,
+    "capex": 3900000000,
+    "capexGrowthPct": 2,
+    "provedReservesMmboe": 3618,
+    "probableReservesMmboe": 0,
+    "probableRisk": 50,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 6797000000,
+        "capex": 1487000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 9643000000,
+        "capex": 1938000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 8412000000,
+        "capex": 2701000000,
+        "da": 1746000000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 11066000000,
+        "capex": 2867000000,
+        "da": 2850000000,
+        "oilBblD": 336954,
+        "nglBblD": 136164,
+        "gasMcfD": 755288,
+        "opexPerBoe": 5.87
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 15026000000,
+        "capex": 3523000000,
+        "da": 5038000000,
+        "oilBblD": 497156,
+        "nglBblD": 219378,
+        "gasMcfD": 1227000,
+        "opexPerBoe": 5.55
+      },
+      {
+        "year": 2026,
+        "period": "Q1",
+        "oilBblD": 520989,
+        "nglBblD": 239100,
+        "gasMcfD": 1315578,
+        "opexPerBoe": 6.21,
+        "capex": 933000000
+      },
+      {
+        "year": 2026,
+        "period": "Q2",
+        "oilBblD": 525176,
+        "nglBblD": 257538,
+        "gasMcfD": 1409659,
+        "revenue": 5560000000,
+        "opexPerBoe": 5.96,
+        "capex": 996000000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "oilBblD": 523083,
+        "nglBblD": 248319,
+        "gasMcfD": 1362618,
+        "opexPerBoe": 6.08,
+        "capex": 1929000000
+      }
+    ],
+    "cash": 0,
+    "totalDebt": 0,
+    "bookEquity": 0,
+    "startPPE": 0,
+    "payoutPct": 25
+  },
+  "fin": {
+    "currentPrice": 199.89,
+    "sharesOut": 281202000,
+    "netDebt": 12304000000,
+    "baseRevenue": 15026000000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "revGrowthStart": 21.9,
+    "revGrowthTerminal": 3,
+    "ebitdaMargin": 63.5,
+    "daPctRevenue": 33.5,
+    "capexPctRevenue": 23.4,
+    "wcPctChange": 8,
+    "taxRate": 0.17,
+    "wacc": 9,
+    "terminalGrowth": 2.5,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 6797000000,
+        "ebitda": 5276000000,
+        "ebit": 4001000000,
+        "capex": 1487000000,
+        "netIncome": 2182000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 9643000000,
+        "ebitda": 7852000000,
+        "ebit": 6508000000,
+        "capex": 1938000000,
+        "netIncome": 4386000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 8412000000,
+        "ebitda": 6115000000,
+        "ebit": 4570000000,
+        "da": 1746000000,
+        "capex": 2701000000,
+        "netIncome": 3143000000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 11066000000,
+        "ebitda": 7282000000,
+        "ebit": 4396000000,
+        "da": 2850000000,
+        "capex": 2867000000,
+        "netIncome": 3338000000
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 15026000000,
+        "ebitda": 9536000000,
+        "ebit": 1266000000,
+        "da": 5038000000,
+        "capex": 3523000000,
+        "netIncome": 1664000000
+      }
+    ]
+  },
+  "sourceRelease": null,
+  "builtAt": null,
+  "notes": "Upstream pure-play focused on Permian (Midland/Delaware). Large 2024/2025 production step-up from acquisitions (e.g., Endeavor). Adj. EBITDA used (attributable where available). Shares diluted WA for Q2 2026. Net debt consolidated 6/30/2026. Reserves YE2025 proved 3,618 MMBOE (49% oil). LOE as opexPerBoe; GP&T as transport. DD&A guidance ~$13.50-14.50/boe. Effective tax low due to impairments. Pro"
+}
