@@ -19,13 +19,12 @@ jobs:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-      - name: Pull live snapshot and merge
+      - name: Pull live snapshot
         env:
           BUFFERS_URL: ${{ vars.BUFFERS_URL || 'https://crude-desk-seven.vercel.app/api/buffers' }}
         run: |
           python3 << 'PY'
           import json, os, urllib.request
-          from datetime import datetime, timezone
           url = os.environ.get("BUFFERS_URL") or "https://crude-desk-seven.vercel.app/api/buffers"
           req = urllib.request.Request(url, headers={"User-Agent": "crude-desk-log"})
           with urllib.request.urlopen(req, timeout=90) as r:
@@ -33,36 +32,55 @@ jobs:
           snap = body.get("snapshot")
           if not isinstance(snap, dict) or not snap.get("date"):
               raise SystemExit("no snapshot on buffers payload")
-          path = "tightness-history.json"
-          try:
-              hist = json.load(open(path))
-          except FileNotFoundError:
-              hist = {"updated": None, "points": []}
-          points = [p for p in hist.get("points", []) if p.get("date") != snap.get("date")]
-          points.append(snap)
-          points.sort(key=lambda p: (p.get("t") or 0))
-          out = {
-              "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-              "points": points[-180:],
-          }
-          with open(path, "w") as f:
-              json.dump(out, f, indent=2)
-              f.write("\n")
+          with open(".snapshot.json", "w") as f:
+              json.dump(snap, f)
+          print("got", snap.get("date"))
           PY
-      - name: Commit
+      - name: Merge onto latest main and push
         run: |
           git config user.name "crude-desk-log"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tightness-history.json
-          git diff --cached --quiet && echo "no change" && exit 0
-          git commit -m "tightness snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3 4 5; do
-            git fetch origin main
-            if git rebase origin/main; then
-              git push && exit 0
-            fi
-            git rebase --abort || true
-            sleep $((i * 3))
-          done
-          echo "push still rejected after retries"
-          exit 1
+          python3 << 'PY'
+          import json, os, subprocess, time
+          from datetime import datetime, timezone
+
+          def run(cmd, check=True):
+              return subprocess.run(cmd, check=check, text=True, capture_output=True)
+
+          snap = json.load(open(".snapshot.json"))
+
+          def merge_onto_worktree():
+              path = "tightness-history.json"
+              try:
+                  hist = json.load(open(path))
+              except FileNotFoundError:
+                  hist = {"updated": None, "points": []}
+              points = [p for p in hist.get("points", []) if p.get("date") != snap.get("date")]
+              points.append(snap)
+              points.sort(key=lambda p: (p.get("t") or 0))
+              out = {
+                  "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                  "points": points[-180:],
+              }
+              with open(path, "w") as f:
+                  json.dump(out, f, indent=2)
+                  f.write("\n")
+
+          for i in range(1, 9):
+              run(["git", "fetch", "origin", "main"])
+              run(["git", "reset", "--hard", "origin/main"])
+              merge_onto_worktree()
+              run(["git", "add", "tightness-history.json"])
+              diff = run(["git", "diff", "--cached", "--quiet"], check=False)
+              if diff.returncode == 0:
+                  print("already on main")
+                  raise SystemExit(0)
+              run(["git", "commit", "-m", f"tightness snapshot {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%MZ')}"])
+              push = run(["git", "push", "origin", "HEAD:main"], check=False)
+              if push.returncode == 0:
+                  print("pushed")
+                  raise SystemExit(0)
+              print(push.stderr or push.stdout)
+              time.sleep(i * 2)
+          raise SystemExit("push still rejected after retries")
+          PY
