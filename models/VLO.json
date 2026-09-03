@@ -1,0 +1,205 @@
+{
+  "ticker": "VLO",
+  "name": "VALERO ENERGY CORP/TX",
+  "currency": "USD",
+  "savedAt": "2026-09-03T11:10:37.529Z",
+  "hardRefreshAt": null,
+  "source": "reviewed",
+  "ep": {
+    "currentPrice": 366.09,
+    "sharesOut": 287927461,
+    "netDebt": 3475000000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "interestRate": 6,
+    "taxRate": 25.3,
+    "deferredTaxPct": 30,
+    "riskFree": 4.3,
+    "marketRiskPremium": 5,
+    "unleveredBeta": 1.05,
+    "debtToEquity": 0.4,
+    "waccOverride": null,
+    "terminalGrowth": 1.5,
+    "terminalEbitdaMultiple": 6,
+    "terminalMethod": "average",
+    "navWeight": 50,
+    "oilBblD": 0,
+    "nglBblD": 0,
+    "gasMcfD": 0,
+    "oilGrowthStart": 0,
+    "oilGrowthTerminal": 0,
+    "nglGrowthStart": 3,
+    "nglGrowthTerminal": 0,
+    "gasGrowthStart": 0,
+    "gasGrowthTerminal": 0,
+    "oilDiff": 0,
+    "gasRealizationPct": 100,
+    "nglPctWti": 50,
+    "aecoSharePct": 0,
+    "ttfSharePct": 0,
+    "carbonPerBoe": 0,
+    "royaltyPct": 0,
+    "opexPerBoe": 0,
+    "transportPerBoe": 0,
+    "gaFixed": 36500000,
+    "otherFixed": 0,
+    "downstreamEbitda": 0,
+    "inflationPct": 2,
+    "ddaPerBoe": 0,
+    "arDays": 45,
+    "invDays": 15,
+    "apDays": 40,
+    "capex": 1797000000,
+    "capexGrowthPct": 2,
+    "provedReservesMmboe": 0,
+    "probableReservesMmboe": 0,
+    "probableRisk": 50,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "label": "2021",
+        "revenue": 113977000000,
+        "da": 2405000000,
+        "tax": 255000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "label": "2022",
+        "revenue": 176383000000,
+        "da": 2473000000,
+        "tax": 3428000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "label": "2023",
+        "revenue": 144766000000,
+        "da": 2701000000,
+        "tax": 2619000000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "label": "2024",
+        "revenue": 129881000000,
+        "da": 2774000000,
+        "tax": 692000000
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "label": "2025",
+        "revenue": 122687000000,
+        "da": 3158000000,
+        "tax": 759000000
+      },
+      {
+        "year": 2026,
+        "period": "Q1",
+        "label": "2026 Q1",
+        "revenue": 32381000000,
+        "da": 840000000,
+        "tax": 401000000
+      },
+      {
+        "year": 2026,
+        "period": "Q2",
+        "label": "2026 Q2",
+        "revenue": 44476000000,
+        "tax": 1094000000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "label": "2026 YTD",
+        "revenue": 76857000000,
+        "da": 1577000000,
+        "tax": 1495000000
+      }
+    ],
+    "cash": 0,
+    "totalDebt": 0,
+    "bookEquity": 0,
+    "startPPE": 0,
+    "payoutPct": 25
+  },
+  "fin": {
+    "currentPrice": 366.09,
+    "sharesOut": 287927461,
+    "netDebt": 3475000000,
+    "baseRevenue": 122687000000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "revGrowthStart": 1.9,
+    "revGrowthTerminal": 1.5,
+    "ebitdaMargin": 5.5,
+    "daPctRevenue": 2.6,
+    "capexPctRevenue": 1.5,
+    "wcPctChange": 8,
+    "taxRate": 25.3,
+    "wacc": 9,
+    "terminalGrowth": 2.5,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "label": "2021",
+        "revenue": 113977000000,
+        "da": 2405000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "label": "2022",
+        "revenue": 176383000000,
+        "da": 2473000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "label": "2023",
+        "revenue": 144766000000,
+        "da": 2701000000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "label": "2024",
+        "revenue": 129881000000,
+        "da": 2774000000
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "label": "2025",
+        "revenue": 122687000000,
+        "da": 3158000000
+      },
+      {
+        "year": 2026,
+        "period": "Q1",
+        "label": "2026 Q1",
+        "revenue": 32381000000,
+        "da": 840000000
+      },
+      {
+        "year": 2026,
+        "period": "Q2",
+        "label": "2026 Q2",
+        "revenue": 44476000000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "label": "2026 YTD",
+        "revenue": 76857000000,
+        "da": 1577000000
+      }
+    ]
+  },
+  "sourceRelease": null,
+  "builtAt": null,
+  "notes": "sharesOut updated to 287,927,461 common shares outstanding as of July 24, 2026 per Q2 2026 10-Q netDebt set to 3.475B (total debt + finance leases 11.349B minus cash 7.874B) as of June 30, 2026 per Q2 earnings release and 10-Q balance sheet ebitda set to 6.719B FY2025 reported EBITDA per company investor presentation reconciliation from net income ebitdaMargin set to 5.48% (6.719B / 122.687B FY2025 revenue) capex set to 1.797B capital investments attributable to Valero for FY2025 per 10-K/earnings release tables"
+}
