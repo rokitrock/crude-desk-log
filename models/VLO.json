@@ -2,7 +2,7 @@
   "ticker": "VLO",
   "name": "VALERO ENERGY CORP/TX",
   "currency": "USD",
-  "savedAt": "2026-09-07T19:40:31.843Z",
+  "savedAt": "2026-09-07T22:45:52.200Z",
   "hardRefreshAt": null,
   "source": "reviewed",
   "ep": {
@@ -201,5 +201,5 @@
   },
   "sourceRelease": null,
   "builtAt": null,
-  "notes": "sharesOut updated to 287,927,461 common shares outstanding as of July 24, 2026 per Q2 2026 10-Q (parsed figure was the April 24, 2026 Q1 amount). netDebt set to 3,475,000,000 = total debt and finance lease obligations of $11,349 million minus cash and cash equivalents of $7,874 million as of June 30, 2026 (Q2 2026 balance sheet / earnings release). ebitda set to 6,339,000,000 = FY2025 operating income of $3,181 million + depreciation and amortization of $3,158 million (2025 10-K); implies ~5.17% margin on $122.687B revenue, consistent with parsed 5.2. capex set to 1,797,000,000 = FY2025 capital investments attributable to Valero (2025 10-K / earnings tables); parsed ~4% of revenue was far too high versus actual ~1.5% and 2026 guidance of ~$1.7-2.0B."
+  "notes": "sharesOut updated to 287,927,461 outstanding as of July 24, 2026 per Q2 2026 10-Q netDebt set to 3.475B (total debt + finance leases 11.349B minus cash 7.874B) as of June 30, 2026 per Q2 2026 earnings release and 10-Q capex set to 1.797B capital investments attributable to Valero for FY 2025 per 10-K / earnings release tables"
 }
