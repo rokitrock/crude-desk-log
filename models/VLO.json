@@ -2,11 +2,11 @@
   "ticker": "VLO",
   "name": "VALERO ENERGY CORP/TX",
   "currency": "USD",
-  "savedAt": "2026-09-03T11:10:37.529Z",
+  "savedAt": "2026-09-07T19:40:31.843Z",
   "hardRefreshAt": null,
   "source": "reviewed",
   "ep": {
-    "currentPrice": 366.09,
+    "currentPrice": 370.72,
     "sharesOut": 287927461,
     "netDebt": 3475000000,
     "startYear": 2026,
@@ -126,7 +126,7 @@
     "payoutPct": 25
   },
   "fin": {
-    "currentPrice": 366.09,
+    "currentPrice": 370.72,
     "sharesOut": 287927461,
     "netDebt": 3475000000,
     "baseRevenue": 122687000000,
@@ -134,7 +134,7 @@
     "horizonYears": 7,
     "revGrowthStart": 1.9,
     "revGrowthTerminal": 1.5,
-    "ebitdaMargin": 5.5,
+    "ebitdaMargin": 5.2,
     "daPctRevenue": 2.6,
     "capexPctRevenue": 1.5,
     "wcPctChange": 8,
@@ -201,5 +201,5 @@
   },
   "sourceRelease": null,
   "builtAt": null,
-  "notes": "sharesOut updated to 287,927,461 common shares outstanding as of July 24, 2026 per Q2 2026 10-Q netDebt set to 3.475B (total debt + finance leases 11.349B minus cash 7.874B) as of June 30, 2026 per Q2 earnings release and 10-Q balance sheet ebitda set to 6.719B FY2025 reported EBITDA per company investor presentation reconciliation from net income ebitdaMargin set to 5.48% (6.719B / 122.687B FY2025 revenue) capex set to 1.797B capital investments attributable to Valero for FY2025 per 10-K/earnings release tables"
+  "notes": "sharesOut updated to 287,927,461 common shares outstanding as of July 24, 2026 per Q2 2026 10-Q (parsed figure was the April 24, 2026 Q1 amount). netDebt set to 3,475,000,000 = total debt and finance lease obligations of $11,349 million minus cash and cash equivalents of $7,874 million as of June 30, 2026 (Q2 2026 balance sheet / earnings release). ebitda set to 6,339,000,000 = FY2025 operating income of $3,181 million + depreciation and amortization of $3,158 million (2025 10-K); implies ~5.17% margin on $122.687B revenue, consistent with parsed 5.2. capex set to 1,797,000,000 = FY2025 capital investments attributable to Valero (2025 10-K / earnings tables); parsed ~4% of revenue was far too high versus actual ~1.5% and 2026 guidance of ~$1.7-2.0B."
 }
