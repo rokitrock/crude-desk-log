@@ -2,9 +2,162 @@
   "ticker": "VLO",
   "name": "VALERO ENERGY CORP/TX",
   "currency": "USD",
-  "savedAt": "2026-09-07T22:45:52.200Z",
+  "savedAt": "2026-09-07T23:58:26.432Z",
   "hardRefreshAt": null,
-  "source": "reviewed",
+  "source": "grok",
+  "research": {
+    "subsector": "downstream",
+    "subsectorLabel": "Downstream / Refining",
+    "subsectorBlurb": "Refiner & marketer — throughput × crack margins; thin, cyclical margins.",
+    "models": [
+      "fin"
+    ],
+    "defaultModel": "fin",
+    "headlines": [
+      "EV/EBITDA",
+      "FCF yield",
+      "Crack sensitivity"
+    ],
+    "currency": "USD",
+    "fin": {
+      "currentPrice": 370.72,
+      "sharesOut": 287927461,
+      "netDebt": 3475000000,
+      "baseRevenue": 122687000000,
+      "startYear": 2026,
+      "horizonYears": 7,
+      "revGrowthStart": 1.9,
+      "revGrowthTerminal": 1.5,
+      "ebitdaMargin": 10.9,
+      "daPctRevenue": 2.6,
+      "capexPctRevenue": 1.5,
+      "wcPctChange": 8,
+      "taxRate": 0.253,
+      "wacc": 9,
+      "terminalGrowth": 2.5,
+      "history": [
+        {
+          "year": 2021,
+          "period": "FY",
+          "revenue": 113977000000,
+          "ebitda": 4551000000,
+          "ebit": 2130000000,
+          "da": 2405000000,
+          "netIncome": 924000000
+        },
+        {
+          "year": 2022,
+          "period": "FY",
+          "revenue": 176383000000,
+          "ebitda": 18342000000,
+          "ebit": 15690000000,
+          "da": 2473000000,
+          "netIncome": 11485000000
+        },
+        {
+          "year": 2023,
+          "period": "FY",
+          "revenue": 144766000000,
+          "ebitda": 15061000000,
+          "ebit": 11858000000,
+          "da": 2701000000,
+          "netIncome": 8835000000
+        },
+        {
+          "year": 2024,
+          "period": "FY",
+          "revenue": 129881000000,
+          "ebitda": 7028000000,
+          "ebit": 3755000000,
+          "da": 2774000000,
+          "capex": 1888000000,
+          "netIncome": 2770000000
+        },
+        {
+          "year": 2025,
+          "period": "FY",
+          "revenue": 122687000000,
+          "ebitda": 6719000000,
+          "ebit": 3181000000,
+          "da": 3158000000,
+          "capex": 1797000000,
+          "netIncome": 2348000000
+        }
+      ]
+    },
+    "epSeed": {
+      "oilBblD": 239040,
+      "nglBblD": 358560,
+      "gasMcfD": 14342400,
+      "opexPerBoe": 4.7,
+      "ddaPerBoe": 2.36,
+      "capex": 2000000000,
+      "sharesOut": 287927461,
+      "netDebt": 3475000000
+    },
+    "epHistory": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 113977000000,
+        "da": 2405000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 176383000000,
+        "da": 2473000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 144766000000,
+        "da": 2701000000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 129881000000,
+        "capex": 1888000000,
+        "da": 2774000000,
+        "netbackPerBoe": 10.62
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 122687000000,
+        "capex": 1797000000,
+        "da": 3158000000,
+        "netbackPerBoe": 12.29
+      },
+      {
+        "year": 2026,
+        "period": "Q2",
+        "revenue": 44476000000,
+        "opexPerBoe": 4.7,
+        "netbackPerBoe": 23.62,
+        "capex": 350000000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "revenue": 76857000000,
+        "opexPerBoe": 4.92,
+        "netbackPerBoe": 19.31
+      }
+    ],
+    "notes": "Downstream refiner/marketer (Refining, Renewable Diesel/DGD JV, Ethanol). Throughput (not upstream production) used for boeD/periods production proxy (FY2025 avg 2,988 mbpd; Q2'26 2,950 mbpd). Capex is capital investments attributable to Valero. Net debt = total debt + finance leases - cash (Q2'26). EBITDA/EBIT/DA from company reconciliations/presentations and filings (GAAP operating income as EBI",
+    "sources": [
+      "https://investorvalero.com/financials/default.aspx",
+      "https://www.sec.gov/Archives/edgar/data/1035002/000162828026011499/vlo-20251231.htm",
+      "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001035002/1ae7b29b-52b8-4aa5-81a3-f9a60d130996.pdf",
+      "https://s23.q4cdn.com/587626645/files/doc_earnings/2026/q2/earnings-result/VLO-2Q26-Earnings-Release.pdf",
+      "https://s23.q4cdn.com/587626645/files/doc_presentations/2025/Apr/02/Investor-Presentation-April-2026.pdf",
+      "https://www.businesswire.com/news/home/20260128964581/en/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results"
+    ],
+    "model": "grok-4.5",
+    "cachedAt": 1788825506169
+  },
   "ep": {
     "currentPrice": 370.72,
     "sharesOut": 287927461,
@@ -23,9 +176,9 @@
     "terminalEbitdaMultiple": 6,
     "terminalMethod": "average",
     "navWeight": 50,
-    "oilBblD": 0,
-    "nglBblD": 0,
-    "gasMcfD": 0,
+    "oilBblD": 239040,
+    "nglBblD": 358560,
+    "gasMcfD": 14342400,
     "oilGrowthStart": 0,
     "oilGrowthTerminal": 0,
     "nglGrowthStart": 3,
@@ -39,17 +192,17 @@
     "ttfSharePct": 0,
     "carbonPerBoe": 0,
     "royaltyPct": 0,
-    "opexPerBoe": 0,
+    "opexPerBoe": 4.7,
     "transportPerBoe": 0,
     "gaFixed": 36500000,
     "otherFixed": 0,
     "downstreamEbitda": 0,
     "inflationPct": 2,
-    "ddaPerBoe": 0,
+    "ddaPerBoe": 2.36,
     "arDays": 45,
     "invDays": 15,
     "apDays": 40,
-    "capex": 1797000000,
+    "capex": 2000000000,
     "capexGrowthPct": 2,
     "provedReservesMmboe": 0,
     "probableReservesMmboe": 0,
@@ -58,65 +211,51 @@
       {
         "year": 2021,
         "period": "FY",
-        "label": "2021",
         "revenue": 113977000000,
-        "da": 2405000000,
-        "tax": 255000000
+        "da": 2405000000
       },
       {
         "year": 2022,
         "period": "FY",
-        "label": "2022",
         "revenue": 176383000000,
-        "da": 2473000000,
-        "tax": 3428000000
+        "da": 2473000000
       },
       {
         "year": 2023,
         "period": "FY",
-        "label": "2023",
         "revenue": 144766000000,
-        "da": 2701000000,
-        "tax": 2619000000
+        "da": 2701000000
       },
       {
         "year": 2024,
         "period": "FY",
-        "label": "2024",
         "revenue": 129881000000,
+        "capex": 1888000000,
         "da": 2774000000,
-        "tax": 692000000
+        "netbackPerBoe": 10.62
       },
       {
         "year": 2025,
         "period": "FY",
-        "label": "2025",
         "revenue": 122687000000,
+        "capex": 1797000000,
         "da": 3158000000,
-        "tax": 759000000
-      },
-      {
-        "year": 2026,
-        "period": "Q1",
-        "label": "2026 Q1",
-        "revenue": 32381000000,
-        "da": 840000000,
-        "tax": 401000000
+        "netbackPerBoe": 12.29
       },
       {
         "year": 2026,
         "period": "Q2",
-        "label": "2026 Q2",
         "revenue": 44476000000,
-        "tax": 1094000000
+        "opexPerBoe": 4.7,
+        "netbackPerBoe": 23.62,
+        "capex": 350000000
       },
       {
         "year": 2026,
         "period": "YTD",
-        "label": "2026 YTD",
         "revenue": 76857000000,
-        "da": 1577000000,
-        "tax": 1495000000
+        "opexPerBoe": 4.92,
+        "netbackPerBoe": 19.31
       }
     ],
     "cash": 0,
@@ -134,72 +273,64 @@
     "horizonYears": 7,
     "revGrowthStart": 1.9,
     "revGrowthTerminal": 1.5,
-    "ebitdaMargin": 5.2,
+    "ebitdaMargin": 10.9,
     "daPctRevenue": 2.6,
     "capexPctRevenue": 1.5,
     "wcPctChange": 8,
-    "taxRate": 25.3,
+    "taxRate": 0.253,
     "wacc": 9,
     "terminalGrowth": 2.5,
     "history": [
       {
         "year": 2021,
         "period": "FY",
-        "label": "2021",
         "revenue": 113977000000,
-        "da": 2405000000
+        "ebitda": 4551000000,
+        "ebit": 2130000000,
+        "da": 2405000000,
+        "netIncome": 924000000
       },
       {
         "year": 2022,
         "period": "FY",
-        "label": "2022",
         "revenue": 176383000000,
-        "da": 2473000000
+        "ebitda": 18342000000,
+        "ebit": 15690000000,
+        "da": 2473000000,
+        "netIncome": 11485000000
       },
       {
         "year": 2023,
         "period": "FY",
-        "label": "2023",
         "revenue": 144766000000,
-        "da": 2701000000
+        "ebitda": 15061000000,
+        "ebit": 11858000000,
+        "da": 2701000000,
+        "netIncome": 8835000000
       },
       {
         "year": 2024,
         "period": "FY",
-        "label": "2024",
         "revenue": 129881000000,
-        "da": 2774000000
+        "ebitda": 7028000000,
+        "ebit": 3755000000,
+        "da": 2774000000,
+        "capex": 1888000000,
+        "netIncome": 2770000000
       },
       {
         "year": 2025,
         "period": "FY",
-        "label": "2025",
         "revenue": 122687000000,
-        "da": 3158000000
-      },
-      {
-        "year": 2026,
-        "period": "Q1",
-        "label": "2026 Q1",
-        "revenue": 32381000000,
-        "da": 840000000
-      },
-      {
-        "year": 2026,
-        "period": "Q2",
-        "label": "2026 Q2",
-        "revenue": 44476000000
-      },
-      {
-        "year": 2026,
-        "period": "YTD",
-        "label": "2026 YTD",
-        "revenue": 76857000000,
-        "da": 1577000000
+        "ebitda": 6719000000,
+        "ebit": 3181000000,
+        "da": 3158000000,
+        "capex": 1797000000,
+        "netIncome": 2348000000
       }
     ]
   },
   "sourceRelease": null,
   "builtAt": null,
-  "notes": "sharesOut updated to 287,927,461 outstanding as of July 24, 2026 per Q2 2026 10-Q netDebt set to 3.475B (total debt + finance leases 11.349B minus cash 7.874B) as of June 30, 2026 per Q2 2026 earnings release and 10-Q capex set to 1.797B capital investments attributable to Valero for FY 2025 per 10-K / earnings release tables"
+  "notes": "Downstream refiner/marketer (Refining, Renewable Diesel/DGD JV, Ethanol). Throughput (not upstream production) used for boeD/periods production proxy (FY2025 avg 2,988 mbpd; Q2'26 2,950 mbpd). Capex is capital investments attributable to Valero. Net debt = total debt + finance leases - cash (Q2'26). EBITDA/EBIT/DA from company reconciliations/presentations and filings (GAAP operating income as EBI"
 }
