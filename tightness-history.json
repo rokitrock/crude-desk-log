@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T18:51:36Z",
+  "updated": "2026-10-01T23:10:41Z",
   "points": [
     {
       "t": 1787611349375,
@@ -914,13 +914,13 @@
       "brent": 113.96
     },
     {
-      "t": 1790880693785,
+      "t": 1790896205601,
       "date": "2026-10-01",
       "lostHormuzMbpd": 19.76,
       "hormuzPct": 1.2,
       "hormuzFlow": 1,
       "hormuzBaseline": 85,
-      "fujairahAnchored": 36,
+      "fujairahAnchored": 23,
       "aisDark": 99,
       "petroline": 4.91,
       "adcop": 0.38,
