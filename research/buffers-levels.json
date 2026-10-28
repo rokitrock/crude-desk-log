@@ -1,0 +1,15 @@
+{
+  "oecdCommercialMMbbl": 2808,
+  "ieaStrategicMMbbl": null,
+  "floatingStorageMMbbl": 82.4,
+  "asOf": "August 2026 (OECD commercial); mid-Octob",
+  "fetchedAt": "2026-10-28T04:32:09.446Z",
+  "sources": [
+    "https://publications.opec.org/momr/chapter/162/3041",
+    "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/OPEC_MOMR_October_2026.pdf",
+    "https://www.iea.org/reports/oil-market-report-october-2026",
+    "https://en.macromicro.me/charts/44710/vortexa-global-crude-oil-floating-storage",
+    "https://www.worldports.org/iea-discusses-stock-release-details-still-scant/",
+    "https://energyfactbook.com/strategic-petroleum-reserve/"
+  ]
+}
