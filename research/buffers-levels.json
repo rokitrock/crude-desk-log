@@ -1,19 +1,19 @@
 {
   "oecdCommercialMMbbl": 2808,
-  "ieaStrategicMMbbl": 740,
+  "ieaStrategicMMbbl": 818,
   "oilOnWaterMMbbl": 78,
-  "hormuzFlowMbpd": 8.2,
-  "hormuzPreCrisisMbpd": 17.1,
-  "hormuzPctOfPreCrisis": 48,
-  "hormuzBasis": "Kpler total Hormuz clearance (strait transits + Gulf of Oman STS net exports); petroleum liquids (crude+products); confirmed floors including dark/STS/naval-esc",
-  "asOf": "August–late October 2026",
-  "fetchedAt": "2026-11-06T14:23:44.003Z",
+  "hormuzFlowMbpd": 10.9,
+  "hormuzPreCrisisMbpd": 20,
+  "hormuzPctOfPreCrisis": 54.5,
+  "hormuzBasis": "IEA total oil (crude + products) flows through the Strait of Hormuz in September 2026 (central estimate from OMR using cargo-tracking data including dark/STS/na",
+  "asOf": "August-September 2026 (OECD/IEA stocks); early November 2026 (floating storage); September",
+  "fetchedAt": "2026-11-06T14:27:31.282Z",
   "sources": [
     "https://www.iea.org/reports/oil-market-report-october-2026",
     "https://publications.opec.org/momr/chapter/162/3041",
-    "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/OPEC_MOMR_October_2026.pdf",
-    "https://www.eia.gov/steo/pdf/steo_full.pdf",
-    "https://marketing.kpler.com/hubfs/Media%20Briefings%20pdfs/Kpler%20media%20briefing%2028%20Oct%202026.pdf",
-    "https://en.macromicro.me/charts/44710/vortexa-global-crude-oil-floating-storage"
+    "https://news.futunn.com/en/post/1001102436/iea-monthly-report-oecd-oil-stocks-fall-to-lowest-level",
+    "https://www.worldports.org/iea-discusses-stock-release-details-still-scant/",
+    "https://en.macromicro.me/charts/44710/vortexa-global-crude-oil-floating-storage",
+    "https://x.com/Energy_Tidbits/status/2116547759574802825"
   ]
 }
