@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T14:38:56.428Z",
+  "updated": "2026-11-06T14:39:22.381Z",
   "points": [
     {
       "t": 1787611349375,
@@ -1084,7 +1084,7 @@
     {
       "t": 1792886400000,
       "date": "2026-10-25",
-      "lostHormuzMbpd": 9.1,
+      "lostHormuzMbpd": 2.92,
       "hormuzPct": 2.4,
       "hormuzFlow": 2,
       "hormuzBaseline": 85,
@@ -1100,7 +1100,7 @@
       "replacementMbpd": 1.04,
       "demandMbpd": 0,
       "demandVsPreCrisisPct": 5.8,
-      "netTightnessMbpd": 2.86,
+      "netTightnessMbpd": 0,
       "score": 61,
       "wti": 99.64,
       "brent": 107.03
