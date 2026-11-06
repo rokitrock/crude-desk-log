@@ -1,27 +1,27 @@
 {
   "oecdCommercialMMbbl": 2808,
-  "ieaStrategicMMbbl": 740,
-  "oilOnWaterMMbbl": 78,
-  "hormuzFlowMbpd": 10.9,
-  "hormuzPreCrisisMbpd": 19.87,
-  "hormuzPctOfPreCrisis": 55,
-  "hormuzBasis": "Cargo through the strait itself (crude + refined products), excluding ship-to-ship transfers outside it",
+  "ieaStrategicMMbbl": null,
+  "oilOnWaterMMbbl": 78.358,
+  "hormuzFlowMbpd": 0,
+  "hormuzPreCrisisMbpd": null,
+  "hormuzPctOfPreCrisis": 0,
+  "hormuzBasis": "",
   "hormuzCrudeMbpd": 10.3,
   "hormuzCrudePreCrisisMbpd": 13.5,
   "hormuzProductsMbpd": 1.3,
   "hormuzProductsPreCrisisMbpd": 3.6,
   "hormuzPendingCrudeMbpd": null,
   "hormuzPendingProductsMbpd": null,
-  "hormuzLegsHeld": [],
-  "asOf": "August-September 2026 (inventories); September 2026 (Hormuz IEA)",
-  "fetchedAt": "2026-11-06T15:03:26.176Z",
-  "sources": [
-    "https://www.cnbc.com/2026/09/30/iran-war-strait-hormuz-gulf-oil-fuel.html",
-    "https://investinglive.com/commodities/reports-that-hormuz-crude-flows-near-76-of-prewar-levels-diesel-shortage-persists/",
-    "https://hormuz.now/oil",
-    "https://discoveryalert.com/analysis/hormuz-oil-flows-data-gap-november-2026/"
+  "hormuzLegsHeld": [
+    "legs pinned to hand-verified figures; research is not overwriting them"
   ],
   "hormuzPinned": true,
   "hormuzPinnedAt": "2026-11-06T16:28:02.499Z",
-  "hormuzPinnedNote": "Week to 2026-11-06, WSJ citing Kpler. Replaces a 30-Sep figure of 13.5/13.5 that the research route was still reporting as current."
+  "hormuzPinnedNote": "Week to 2026-11-06, WSJ citing Kpler. Replaces a 30-Sep figure of 13.5/13.5 that the research route was still reporting as current.",
+  "asOf": "OECD commercial August 2026; Vortexa crude floating storage 2026-11-01",
+  "fetchedAt": "2026-11-06T17:15:04.841Z",
+  "sources": [
+    "https://publications.opec.org/momr/chapter/162/3041",
+    "https://en.macromicro.me/charts/44710/vortexa-global-crude-oil-floating-storage"
+  ]
 }
