@@ -1,17 +1,19 @@
 {
   "oecdCommercialMMbbl": 2808,
-  "ieaStrategicMMbbl": 818,
+  "ieaStrategicMMbbl": 740,
   "oilOnWaterMMbbl": 78,
-  "hormuzFlowMbpd": 8.5,
+  "hormuzFlowMbpd": 8.2,
   "hormuzPreCrisisMbpd": 17.1,
-  "asOf": "August-September 2026 (stocks); late October/early November 2026 (flows/floating)",
-  "fetchedAt": "2026-11-06T14:18:57.834Z",
+  "hormuzPctOfPreCrisis": 48,
+  "hormuzBasis": "Kpler total Hormuz clearance (strait transits + Gulf of Oman STS net exports); petroleum liquids (crude+products); confirmed floors including dark/STS/naval-esc",
+  "asOf": "August–late October 2026",
+  "fetchedAt": "2026-11-06T14:23:44.003Z",
   "sources": [
-    "https://publications.opec.org/momr/chapter/162/3041",
     "https://www.iea.org/reports/oil-market-report-october-2026",
-    "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
-    "https://en.macromicro.me/charts/44710/vortexa-global-crude-oil-floating-storage",
-    "https://marketing.kpler.com/hubfs/Media%20Briefings%20pdfs/Kpler%20media%20briefing%2030%20Oct%202026.pdf",
-    "https://eco3min.fr/en/us-strategic-petroleum-reserve-history/"
+    "https://publications.opec.org/momr/chapter/162/3041",
+    "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/OPEC_MOMR_October_2026.pdf",
+    "https://www.eia.gov/steo/pdf/steo_full.pdf",
+    "https://marketing.kpler.com/hubfs/Media%20Briefings%20pdfs/Kpler%20media%20briefing%2028%20Oct%202026.pdf",
+    "https://en.macromicro.me/charts/44710/vortexa-global-crude-oil-floating-storage"
   ]
 }
