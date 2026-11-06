@@ -1,0 +1,382 @@
+{
+  "ticker": "CJ.TO",
+  "name": "CARDINAL ENERGY LTD",
+  "currency": "CAD",
+  "savedAt": "2026-11-06T13:07:29.879Z",
+  "hardRefreshAt": null,
+  "source": "grok",
+  "research": {
+    "subsector": "upstream",
+    "subsectorLabel": "Upstream / E&P",
+    "subsectorBlurb": "Producer — valued on netbacks and reserves; the E&P netback + NAV model leads, with a financials DCF cross-check.",
+    "models": [
+      "ep",
+      "fin"
+    ],
+    "defaultModel": "ep",
+    "headlines": [
+      "Netback",
+      "Reserves NAV",
+      "EV/EBITDA"
+    ],
+    "currency": "CAD",
+    "fin": {
+      "currentPrice": 11.03,
+      "sharesOut": 176000000,
+      "netDebt": 154900000,
+      "baseRevenue": 533668000,
+      "startYear": 2026,
+      "horizonYears": 7,
+      "revGrowthStart": 9.7,
+      "revGrowthTerminal": 3,
+      "ebitdaMargin": 55,
+      "daPctRevenue": 19.9,
+      "capexPctRevenue": 41.2,
+      "wcPctChange": 8,
+      "interestRate": 6,
+      "payoutPct": 25,
+      "arDays": 45,
+      "invDays": 15,
+      "apDays": 40,
+      "taxRate": 21,
+      "wacc": 9,
+      "terminalGrowth": 2.5,
+      "history": [
+        {
+          "year": 2021,
+          "period": "FY",
+          "revenue": 368700000,
+          "capex": 56400000,
+          "netIncome": 284420000
+        },
+        {
+          "year": 2022,
+          "period": "FY",
+          "revenue": 737590000,
+          "capex": 120000000,
+          "netIncome": 302687000
+        },
+        {
+          "year": 2023,
+          "period": "FY",
+          "revenue": 589605000,
+          "capex": 117258000,
+          "netIncome": 103598000
+        },
+        {
+          "year": 2024,
+          "period": "FY",
+          "revenue": 605348000,
+          "ebitda": 261989000,
+          "ebit": 156906000,
+          "capex": 186560000,
+          "netIncome": 108354000
+        },
+        {
+          "year": 2025,
+          "period": "FY",
+          "revenue": 533668000,
+          "ebitda": 152760000,
+          "ebit": 43999000,
+          "da": 106100000,
+          "capex": 220000000,
+          "netIncome": 20801000
+        }
+      ]
+    },
+    "epSeed": {
+      "oilBblD": 22347,
+      "nglBblD": 865,
+      "gasMcfD": 11487,
+      "oilDiff": -10,
+      "royaltyPct": 16.3,
+      "opexPerBoe": 21.7,
+      "transportPerBoe": 2.12,
+      "ddaPerBoe": 14.83,
+      "capex": 114570000,
+      "provedReservesMmboe": 107.3,
+      "probableReservesMmboe": 40.3,
+      "sharesOut": 176000000,
+      "netDebt": 154900000,
+      "aecoSharePct": 20,
+      "gaFixed": 29511594,
+      "gasRealizationPct": 70
+    },
+    "epHistory": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 368700000,
+        "capex": 56400000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 737590000,
+        "capex": 120000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 589605000,
+        "capex": 96967000,
+        "oilBblD": 18248,
+        "nglBblD": 817,
+        "gasMcfD": 43392,
+        "opexPerBoe": 24.31,
+        "netbackPerBoe": 34.8
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 605348000,
+        "capex": 100536000,
+        "oilBblD": 18660,
+        "nglBblD": 817,
+        "gasMcfD": 37795,
+        "opexPerBoe": 24.23,
+        "netbackPerBoe": 36.35
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 533668000,
+        "capex": 220000000,
+        "da": 106100000,
+        "oilBblD": 18816,
+        "nglBblD": 856,
+        "gasMcfD": 36137,
+        "opexPerBoe": 23.47,
+        "netbackPerBoe": 29.92
+      },
+      {
+        "year": 2026,
+        "period": "Q3",
+        "oilBblD": 22347,
+        "nglBblD": 865,
+        "gasMcfD": 11487,
+        "revenue": 215614000,
+        "opexPerBoe": 21.7,
+        "netbackPerBoe": 54.24,
+        "capex": 60400000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "oilBblD": 22793,
+        "nglBblD": 829,
+        "gasMcfD": 11671,
+        "revenue": 613901000,
+        "opexPerBoe": 21.12,
+        "netbackPerBoe": 50.48
+      }
+    ],
+    "notes": "Canadian upstream E&P focused on low-decline conventional oil (EOR/waterflood) in AB/SK/BC plus growing modular SAGD thermal heavy oil at Reford SK (Reford 1 online >6k bbl/d; Reford 2 sanctioned). ~90-93% oil+liquids. Monthly dividend $0.06/sh ($0.72 annual). YE2025 TPP reserves 147.6 MMboe (proved 107.3). Net debt Q3'26 $154.9mm (0.4x AFF). Tax pools ~$1.2bn; limited current tax expected near-te",
+    "sources": [
+      "https://cardinalenergy.ca/",
+      "https://cardinalenergy.ca/investors/financial-reports/",
+      "https://cardinalenergy.ca/wp-content/uploads/2026/11/Q3-2026-MDA-FINAL.pdf",
+      "https://cardinalenergy.ca/wp-content/uploads/2026/11/November-5-2026-Press-Release-Q3-Final.pdf",
+      "https://cardinalenergy.ca/wp-content/uploads/2026/03/2025-MDA-FINAL.pdf",
+      "https://cardinalenergy.ca/wp-content/uploads/2026/03/2025-Financial-Statements-FINAL.pdf",
+      "https://cardinalenergy.ca/wp-content/uploads/2025/03/2024-MDA-FINAL.pdf",
+      "https://cardinalenergy.ca/wp-content/uploads/2026/02/February-23-2026-Reserves-Final.pdf"
+    ],
+    "model": "grok-4.5",
+    "cachedAt": 1793970449599
+  },
+  "ep": {
+    "currentPrice": 11.03,
+    "sharesOut": 176000000,
+    "netDebt": 154900000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "interestRate": 6,
+    "taxRate": 24,
+    "deferredTaxPct": 30,
+    "riskFree": 4.3,
+    "marketRiskPremium": 5,
+    "unleveredBeta": 1.05,
+    "debtToEquity": 0.4,
+    "waccOverride": null,
+    "terminalGrowth": 1.5,
+    "terminalEbitdaMultiple": 4.5,
+    "terminalMethod": "average",
+    "navWeight": 50,
+    "oilBblD": 22347,
+    "nglBblD": 865,
+    "gasMcfD": 11487,
+    "oilGrowthStart": 3,
+    "oilGrowthTerminal": 0,
+    "nglGrowthStart": 3,
+    "nglGrowthTerminal": 0,
+    "gasGrowthStart": 2,
+    "gasGrowthTerminal": 0,
+    "oilDiff": -10,
+    "gasRealizationPct": 70,
+    "nglPctWti": 42,
+    "aecoSharePct": 20,
+    "ttfSharePct": 0,
+    "carbonPerBoe": 0,
+    "royaltyPct": 16.3,
+    "opexPerBoe": 21.7,
+    "transportPerBoe": 2.12,
+    "gaFixed": 29511594,
+    "otherFixed": 0,
+    "downstreamEbitda": 0,
+    "inflationPct": 2,
+    "ddaPerBoe": 14.83,
+    "arDays": 45,
+    "invDays": 15,
+    "apDays": 40,
+    "capex": 114570000,
+    "capexGrowthPct": 2,
+    "hedgedPct": 0,
+    "hedgePricePerBoe": 0,
+    "hedgeYears": 0,
+    "provedReservesMmboe": 107.3,
+    "probableReservesMmboe": 40.3,
+    "probableRisk": 50,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 368700000,
+        "capex": 56400000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 737590000,
+        "capex": 120000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 589605000,
+        "capex": 96967000,
+        "oilBblD": 18248,
+        "nglBblD": 817,
+        "gasMcfD": 43392,
+        "opexPerBoe": 24.31,
+        "netbackPerBoe": 34.8
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 605348000,
+        "capex": 100536000,
+        "oilBblD": 18660,
+        "nglBblD": 817,
+        "gasMcfD": 37795,
+        "opexPerBoe": 24.23,
+        "netbackPerBoe": 36.35
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 533668000,
+        "capex": 220000000,
+        "da": 106100000,
+        "oilBblD": 18816,
+        "nglBblD": 856,
+        "gasMcfD": 36137,
+        "opexPerBoe": 23.47,
+        "netbackPerBoe": 29.92
+      },
+      {
+        "year": 2026,
+        "period": "Q3",
+        "oilBblD": 22347,
+        "nglBblD": 865,
+        "gasMcfD": 11487,
+        "revenue": 215614000,
+        "opexPerBoe": 21.7,
+        "netbackPerBoe": 54.24,
+        "capex": 60400000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "oilBblD": 22793,
+        "nglBblD": 829,
+        "gasMcfD": 11671,
+        "revenue": 613901000,
+        "opexPerBoe": 21.12,
+        "netbackPerBoe": 50.48
+      }
+    ],
+    "cash": 0,
+    "totalDebt": 0,
+    "bookEquity": 0,
+    "startPPE": 0,
+    "payoutPct": 25
+  },
+  "fin": {
+    "currentPrice": 11.03,
+    "sharesOut": 176000000,
+    "netDebt": 154900000,
+    "baseRevenue": 533668000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "revGrowthStart": 9.7,
+    "revGrowthTerminal": 3,
+    "ebitdaMargin": 55,
+    "daPctRevenue": 19.9,
+    "capexPctRevenue": 41.2,
+    "wcPctChange": 8,
+    "interestRate": 6,
+    "payoutPct": 25,
+    "arDays": 45,
+    "invDays": 15,
+    "apDays": 40,
+    "taxRate": 21,
+    "wacc": 9,
+    "terminalGrowth": 2.5,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "revenue": 368700000,
+        "capex": 56400000,
+        "netIncome": 284420000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 737590000,
+        "capex": 120000000,
+        "netIncome": 302687000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 589605000,
+        "capex": 117258000,
+        "netIncome": 103598000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 605348000,
+        "ebitda": 261989000,
+        "ebit": 156906000,
+        "capex": 186560000,
+        "netIncome": 108354000
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 533668000,
+        "ebitda": 152760000,
+        "ebit": 43999000,
+        "da": 106100000,
+        "capex": 220000000,
+        "netIncome": 20801000
+      }
+    ]
+  },
+  "sourceRelease": null,
+  "builtAt": null,
+  "notes": "Canadian upstream E&P focused on low-decline conventional oil (EOR/waterflood) in AB/SK/BC plus growing modular SAGD thermal heavy oil at Reford SK (Reford 1 online >6k bbl/d; Reford 2 sanctioned). ~90-93% oil+liquids. Monthly dividend $0.06/sh ($0.72 annual). YE2025 TPP reserves 147.6 MMboe (proved 107.3). Net debt Q3'26 $154.9mm (0.4x AFF). Tax pools ~$1.2bn; limited current tax expected near-te"
+}
