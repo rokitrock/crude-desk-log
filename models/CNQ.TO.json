@@ -1,0 +1,330 @@
+{
+  "ticker": "CNQ.TO",
+  "name": "CANADIAN NATURAL RESOURCES LIMITED",
+  "currency": "CAD",
+  "savedAt": "2026-11-06T13:02:03.818Z",
+  "hardRefreshAt": null,
+  "source": "grok",
+  "research": {
+    "subsector": "upstream",
+    "subsectorLabel": "Upstream / E&P",
+    "subsectorBlurb": "Producer — valued on netbacks and reserves; the E&P netback + NAV model leads, with a financials DCF cross-check.",
+    "models": [
+      "ep",
+      "fin"
+    ],
+    "defaultModel": "ep",
+    "headlines": [
+      "Netback",
+      "Reserves NAV",
+      "EV/EBITDA"
+    ],
+    "currency": "CAD",
+    "fin": {
+      "currentPrice": 68.48,
+      "sharesOut": 2045524000,
+      "netDebt": 12117000000,
+      "baseRevenue": 44167000000,
+      "startYear": 2026,
+      "horizonYears": 7,
+      "revGrowthStart": 5,
+      "revGrowthTerminal": 3,
+      "ebitdaMargin": 55,
+      "daPctRevenue": 8,
+      "capexPctRevenue": 14.9,
+      "wcPctChange": 8,
+      "interestRate": 6,
+      "payoutPct": 25,
+      "arDays": 45,
+      "invDays": 15,
+      "apDays": 40,
+      "taxRate": 21,
+      "wacc": 9,
+      "terminalGrowth": 2.5,
+      "history": [
+        {
+          "year": 2021,
+          "period": "FY",
+          "netIncome": 7664000000
+        },
+        {
+          "year": 2022,
+          "period": "FY",
+          "revenue": 49530000000,
+          "da": 7353000000,
+          "netIncome": 10937000000
+        },
+        {
+          "year": 2023,
+          "period": "FY",
+          "revenue": 40835000000,
+          "da": 6413000000,
+          "capex": 4909000000,
+          "netIncome": 8233000000
+        },
+        {
+          "year": 2024,
+          "period": "FY",
+          "revenue": 41509000000,
+          "da": 6681000000,
+          "capex": 14431000000,
+          "netIncome": 6106000000
+        },
+        {
+          "year": 2025,
+          "period": "FY",
+          "revenue": 44167000000,
+          "capex": 6579000000,
+          "netIncome": 10820000000
+        }
+      ]
+    },
+    "epSeed": {
+      "oilBblD": 132137.6,
+      "nglBblD": 198206.4,
+      "gasMcfD": 7928256,
+      "oilDiff": 13.86,
+      "opexPerBoe": 18.44,
+      "capex": 6316000000,
+      "provedReservesMmboe": 15910,
+      "probableReservesMmboe": 4840,
+      "sharesOut": 2045524000,
+      "netDebt": 12117000000,
+      "ttfSharePct": 85
+    },
+    "epHistory": [
+      {
+        "year": 2021,
+        "period": "FY"
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 49530000000,
+        "da": 7353000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 40835000000,
+        "capex": 4909000000,
+        "da": 6413000000,
+        "gasMcfD": 2151000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 41509000000,
+        "capex": 14431000000,
+        "da": 6681000000,
+        "gasMcfD": 2147000,
+        "opexPerBoe": 18.56
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 44167000000,
+        "capex": 6579000000,
+        "gasMcfD": 2547000,
+        "opexPerBoe": 18.44
+      },
+      {
+        "year": 2026,
+        "period": "Q3",
+        "gasMcfD": 2607000,
+        "revenue": 12793000000,
+        "capex": 1885000000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "gasMcfD": 2615000,
+        "revenue": 38344000000,
+        "capex": 6316000000
+      }
+    ],
+    "notes": "CNQ is a large Canadian upstream producer focused on oil sands mining/upgrading (SCO), thermal in situ bitumen, conventional heavy/light oil, NGLs and natural gas, primarily in Western Canada, with minor North Sea and Offshore Africa operations. Production and reserves reported company gross (before royalties). Liquids (crude oil + NGLs + SCO/bitumen) treated as combined where not broken out separ",
+    "sources": [
+      "https://www.cnrl.com/content/uploads/2026/04/CNQ_2025-Annual-Report.pdf",
+      "https://www.cnrl.com/wp-content/uploads/2026/11/1105-Q326-Front-End.pdf",
+      "https://www.cnrl.com/investors/",
+      "https://www.cnrl.com/content/uploads/2025/03/Q424-Interim-Report.pdf",
+      "https://www.sec.gov/Archives/edgar/data/0001017413/000101741326000018/cnq-20251231.htm",
+      "https://www.marketscreener.com/news/canadian-natural-resources-managementa-s-discussion-and-analysis-09-30-2026-q3-fs-ce785fdcdd8bff2c",
+      "https://www.marketscreener.com/news/canadian-natural-resources-financial-reports-09-30-2026-q3-mda-ce785fdcdd8bff2d"
+    ],
+    "model": "grok-4.5",
+    "cachedAt": 1793970123466
+  },
+  "ep": {
+    "currentPrice": 68.48,
+    "sharesOut": 2045524000,
+    "netDebt": 12117000000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "interestRate": 6,
+    "taxRate": 18.3,
+    "deferredTaxPct": 30,
+    "riskFree": 4.3,
+    "marketRiskPremium": 5,
+    "unleveredBeta": 1,
+    "debtToEquity": 0.4,
+    "waccOverride": null,
+    "terminalGrowth": 1.5,
+    "terminalEbitdaMultiple": 5,
+    "terminalMethod": "average",
+    "navWeight": 50,
+    "oilBblD": 132137.6,
+    "nglBblD": 198206.4,
+    "gasMcfD": 7928256,
+    "oilGrowthStart": 3,
+    "oilGrowthTerminal": 0,
+    "nglGrowthStart": 3,
+    "nglGrowthTerminal": 0,
+    "gasGrowthStart": 1,
+    "gasGrowthTerminal": 0,
+    "oilDiff": 13.86,
+    "gasRealizationPct": 70,
+    "nglPctWti": 40,
+    "aecoSharePct": 0,
+    "ttfSharePct": 85,
+    "carbonPerBoe": 2.5,
+    "royaltyPct": 28,
+    "opexPerBoe": 18.44,
+    "transportPerBoe": 10,
+    "gaFixed": 36500000,
+    "otherFixed": 0,
+    "downstreamEbitda": 0,
+    "inflationPct": 2,
+    "ddaPerBoe": 12,
+    "arDays": 45,
+    "invDays": 15,
+    "apDays": 40,
+    "capex": 6316000000,
+    "capexGrowthPct": 2,
+    "hedgedPct": 0,
+    "hedgePricePerBoe": 0,
+    "hedgeYears": 0,
+    "provedReservesMmboe": 15910,
+    "probableReservesMmboe": 4840,
+    "probableRisk": 50,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY"
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 49530000000,
+        "da": 7353000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 40835000000,
+        "capex": 4909000000,
+        "da": 6413000000,
+        "gasMcfD": 2151000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 41509000000,
+        "capex": 14431000000,
+        "da": 6681000000,
+        "gasMcfD": 2147000,
+        "opexPerBoe": 18.56
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 44167000000,
+        "capex": 6579000000,
+        "gasMcfD": 2547000,
+        "opexPerBoe": 18.44
+      },
+      {
+        "year": 2026,
+        "period": "Q3",
+        "gasMcfD": 2607000,
+        "revenue": 12793000000,
+        "capex": 1885000000
+      },
+      {
+        "year": 2026,
+        "period": "YTD",
+        "gasMcfD": 2615000,
+        "revenue": 38344000000,
+        "capex": 6316000000
+      }
+    ],
+    "cash": 0,
+    "totalDebt": 0,
+    "bookEquity": 0,
+    "startPPE": 0,
+    "payoutPct": 25
+  },
+  "fin": {
+    "currentPrice": 68.48,
+    "sharesOut": 2045524000,
+    "netDebt": 12117000000,
+    "baseRevenue": 44167000000,
+    "startYear": 2026,
+    "horizonYears": 7,
+    "revGrowthStart": 5,
+    "revGrowthTerminal": 3,
+    "ebitdaMargin": 55,
+    "daPctRevenue": 8,
+    "capexPctRevenue": 14.9,
+    "wcPctChange": 8,
+    "interestRate": 6,
+    "payoutPct": 25,
+    "arDays": 45,
+    "invDays": 15,
+    "apDays": 40,
+    "taxRate": 21,
+    "wacc": 9,
+    "terminalGrowth": 2.5,
+    "history": [
+      {
+        "year": 2021,
+        "period": "FY",
+        "netIncome": 7664000000
+      },
+      {
+        "year": 2022,
+        "period": "FY",
+        "revenue": 49530000000,
+        "da": 7353000000,
+        "netIncome": 10937000000
+      },
+      {
+        "year": 2023,
+        "period": "FY",
+        "revenue": 40835000000,
+        "da": 6413000000,
+        "capex": 4909000000,
+        "netIncome": 8233000000
+      },
+      {
+        "year": 2024,
+        "period": "FY",
+        "revenue": 41509000000,
+        "da": 6681000000,
+        "capex": 14431000000,
+        "netIncome": 6106000000
+      },
+      {
+        "year": 2025,
+        "period": "FY",
+        "revenue": 44167000000,
+        "capex": 6579000000,
+        "netIncome": 10820000000
+      }
+    ]
+  },
+  "sourceRelease": null,
+  "builtAt": null,
+  "notes": "CNQ is a large Canadian upstream producer focused on oil sands mining/upgrading (SCO), thermal in situ bitumen, conventional heavy/light oil, NGLs and natural gas, primarily in Western Canada, with minor North Sea and Offshore Africa operations. Production and reserves reported company gross (before royalties). Liquids (crude oil + NGLs + SCO/bitumen) treated as combined where not broken out separ"
+}
