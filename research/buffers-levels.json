@@ -1,23 +1,28 @@
 {
   "oecdCommercialMMbbl": 2808,
-  "ieaStrategicMMbbl": 818,
+  "ieaStrategicMMbbl": 740,
   "oilOnWaterMMbbl": 78,
-  "hormuzFlowMbpd": 14.2,
-  "hormuzPreCrisisMbpd": 17,
-  "hormuzPctOfPreCrisis": 80,
-  "hormuzBasis": "Kpler crude + refined products clearing the Strait of Hormuz (7-day avg; includes STS/shuttle and escorted/dark cargo as tracked by Kpler)",
+  "hormuzFlowMbpd": 10.9,
+  "hormuzPreCrisisMbpd": 19.87,
+  "hormuzPctOfPreCrisis": 55,
+  "hormuzBasis": "total oil (crude + condensate + refined products) through the Strait of Hormuz (IEA September)",
   "hormuzCrudeMbpd": 13.5,
   "hormuzCrudePreCrisisMbpd": 13.5,
-  "hormuzProductsMbpd": 0.677,
-  "hormuzProductsPreCrisisMbpd": 3.6,
-  "asOf": "August-September 2026 stocks; floating storage ~1 Nov 2026; Hormuz ~late September / early",
-  "fetchedAt": "2026-11-06T14:38:56.247Z",
+  "hormuzProductsMbpd": 1.9,
+  "hormuzProductsPreCrisisMbpd": 4.93,
+  "hormuzPendingCrudeMbpd": 9,
+  "hormuzPendingProductsMbpd": null,
+  "hormuzLegsHeld": [
+    "crude: 60% proposed vs 100% in use, awaiting a second run"
+  ],
+  "asOf": "August-September 2026 (inventories); September 2026 (Hormuz IEA)",
+  "fetchedAt": "2026-11-06T15:03:26.176Z",
   "sources": [
-    "https://publications.opec.org/momr/chapter/162/3041",
     "https://www.iea.org/reports/oil-market-report-october-2026",
-    "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
-    "https://energyfactbook.com/strategic-petroleum-reserve/",
+    "https://publications.opec.org/momr/chapter/162/3041",
+    "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
     "https://en.macromicro.me/charts/44710/vortexa-global-crude-oil-floating-storage",
-    "https://www.worldports.org/crude-oil-exports-through-the-strait-of-hormuz-hit-prewar-levels-but-fuel-shipments-remain-constrained/"
+    "https://news.futunn.com/en/post/1001102436/iea-monthly-report-oecd-oil-stocks-fall-to-lowest-level",
+    "https://www.alupetra.com/insights/strait-of-hormuz-october-2026-oil-flows-bypass-freight.html"
   ]
 }
