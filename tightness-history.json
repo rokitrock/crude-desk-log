@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T05:01:39.255Z",
+  "updated": "2026-11-12T10:59:02.248Z",
   "points": [
     {
       "t": 1787611349375,
@@ -1150,8 +1150,8 @@
       "demandVsPreCrisisPct": 5.8,
       "netTightnessMbpd": 0,
       "score": 46,
-      "wti": 86.53,
-      "brent": 92.76
+      "wti": 85.85,
+      "brent": 91.97
     }
   ]
 }
