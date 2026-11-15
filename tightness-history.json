@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T17:04:20Z",
+  "updated": "2026-11-15T19:27:33.054Z",
   "points": [
     {
       "t": 1787611349375,
@@ -1136,8 +1136,8 @@
       "hormuzPct": 3.5,
       "hormuzFlow": 3,
       "hormuzBaseline": 85,
-      "fujairahAnchored": 28,
-      "aisDark": 17,
+      "fujairahAnchored": 27,
+      "aisDark": 24,
       "petroline": 4.74,
       "adcop": 0.38,
       "sts": 0,
