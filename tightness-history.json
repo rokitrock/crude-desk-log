@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T22:39:15.352Z",
+  "updated": "2026-11-26T04:58:55.913Z",
   "points": [
     {
       "t": 1787611349375,
@@ -1191,15 +1191,15 @@
       "sts": 0.4,
       "bypassMbpd": 5.69,
       "bypassIndex": 100,
-      "usYoY": 0.22,
+      "usYoY": 0.25,
       "nonGulf": 0.9,
-      "replacementMbpd": 1.12,
-      "demandMbpd": 1.98,
-      "demandVsPreCrisisPct": -1.9,
+      "replacementMbpd": 1.15,
+      "demandMbpd": 0,
+      "demandVsPreCrisisPct": 1.9,
       "netTightnessMbpd": 0,
       "score": 45,
-      "wti": 82.05,
-      "brent": 91.4
+      "wti": 83.68,
+      "brent": 94.61
     }
   ]
 }
