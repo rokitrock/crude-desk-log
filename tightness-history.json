@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T18:55:17Z",
+  "updated": "2026-11-27T22:09:35.905Z",
   "points": [
     {
       "t": 1787611349375,
@@ -1184,20 +1184,20 @@
       "hormuzPct": 1.2,
       "hormuzFlow": 1,
       "hormuzBaseline": 85,
-      "fujairahAnchored": 31,
-      "aisDark": 23,
+      "fujairahAnchored": 29,
+      "aisDark": 20,
       "petroline": 4.91,
       "adcop": 0.38,
       "sts": 0,
       "bypassMbpd": 5.29,
       "bypassIndex": 96,
-      "usYoY": 0.22,
+      "usYoY": 0.25,
       "nonGulf": 0.9,
-      "replacementMbpd": 1.12,
-      "demandMbpd": 1.98,
-      "demandVsPreCrisisPct": -1.9,
+      "replacementMbpd": 1.15,
+      "demandMbpd": 0,
+      "demandVsPreCrisisPct": 1.9,
       "netTightnessMbpd": 0,
-      "score": 47,
+      "score": 45,
       "wti": 83.68,
       "brent": 94.61
     }
