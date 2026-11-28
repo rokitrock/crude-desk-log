@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T01:56:34Z",
+  "updated": "2026-11-28T10:18:53Z",
   "points": [
     {
       "t": 1787611349375,
@@ -1184,8 +1184,8 @@
       "hormuzPct": 1.2,
       "hormuzFlow": 1,
       "hormuzBaseline": 85,
-      "fujairahAnchored": 23,
-      "aisDark": 18,
+      "fujairahAnchored": 34,
+      "aisDark": 26,
       "petroline": 4.91,
       "adcop": 0.38,
       "sts": 0,
@@ -1197,7 +1197,7 @@
       "demandMbpd": 0,
       "demandVsPreCrisisPct": 1.9,
       "netTightnessMbpd": 0,
-      "score": 44,
+      "score": 48,
       "wti": 83.68,
       "brent": 94.61
     }
